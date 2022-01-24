@@ -62,7 +62,7 @@ compatible across patch releases.
 
 Exceptions to these rules require a vote by the OMC.
 
-## Long term sable releases
+## Long term stable releases
 
 A release can be designated as a release.  LTS releases will be supported
 for at least five years and the project will specify a LTS release at
