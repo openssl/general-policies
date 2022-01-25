@@ -8,6 +8,11 @@ An ABI compatible release allows applications to
 be relinked against the new library with the expectation that everything will
 continue to function.
 
+## Alpha release
+
+An [alpha release] is an early pre-release version.
+Refer to the [versioning policy] for specific details.
+
 ## API
 
 Application programming interface.
@@ -15,21 +20,26 @@ Application programming interface.
 An API compatible release allows application to be recompiled against the new
 library with the expectation that everything will continue to function.
 
-## LTS
+## Beta release
 
-Long term stable.  These releases are supported for longer than normal releases.
+A [beta release] is a late pre-release version.
 Refer to the [versioning policy] for specific details.
 
-[versioning policy]: [patch]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#long-term-sable-releases
+## LTS
+
+[Long term support].  These releases are supported for longer than normal
+releases.  Refer to the [versioning policy] for specific details.
 
 ## Major release
 
-A major release is one where API and ABI breaking changes are permitted.
+A [major release] is one where API and ABI breaking changes are permitted.
+Refer to the [versioning policy] for specific details.
 
 ## Minor release
 
-A minor release is one where API and ABI breaking changes are **not** permitted
+A [minor release] is one where API and ABI breaking changes are **not** permitted
 and additional functionality can be added.
+Refer to the [versioning policy] for specific details.
 
 ## OMC
 
@@ -44,10 +54,19 @@ This group oversees all technical aspects of the project.
 
 ## Patch release
 
-A patch release is one where API and ABI breaking changes are **not** permitted
-and no additional functional can be added.
+A [patch release] is one where API and ABI breaking changes are **not** permitted
+and no additional functionality can be added.
+Refer to the [versioning policy] for specific details.
 
-## Public interfaces
+## Public interface
 
 A public interface is any function, global variable, structure or macro
 declared in a public header file.
+
+[alpha release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#alpha-release
+[beta release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#beta-release
+[Long term support]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#long-term-stable-release
+[major release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#major-release
+[minor release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#minor-release
+[patch release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#patch-release
+[versioning policy]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md
