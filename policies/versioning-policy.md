@@ -4,6 +4,9 @@ This document describes the release versioning scheme used by the OpenSSL
 project from version 3.0.0 onwards.  It also details the level of [ABI] and
 [API] compatibility each version represents.
 
+> _Note: All examples herein are illustrative and do not constitute part of the
+> versioning policy._
+
 The version scheme consists a triple of numbers:
 **[major]**.**[minor]**.**[patch]**.
 
