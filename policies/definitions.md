@@ -47,3 +47,7 @@ This group oversees all technical aspects of the project.
 A patch release is one where API and ABI breaking changes are **not** permitted
 and no additional functional can be added.
 
+## Public interfaces
+
+A public interface is any function, global variable, structure or macro
+declared in a public header file.
