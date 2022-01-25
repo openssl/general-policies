@@ -20,10 +20,24 @@ Application programming interface.
 An API compatible release allows application to be recompiled against the new
 library with the expectation that everything will continue to function.
 
+Refer to the [API compatibility policy] for specific details.
+
 ## Beta release
 
 A [beta release] is a late pre-release version.
 Refer to the [versioning policy] for specific details.
+
+## Bug fix
+
+A bug fix is a fix of functionality of the libraries, modules, applications
+or the build system.
+Refer to the [stable release update policy] for specific details.
+
+## End-user documentation
+
+End-user documentation is documentation intended for users of the OpenSSL
+libraries and commandline utilities.
+Refer to the [stable release update policy] for specific details.
 
 ## LTS
 
@@ -62,6 +76,13 @@ Refer to the [versioning policy] for specific details.
 
 A public interface is any function, global variable, structure or macro
 declared in a public header file.
+Refer to the [API compatibility policy] for specific details.
+
+## Stable release
+
+A stable release is a patch release from an existing supported minor
+release branch.
+
 
 [alpha release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#alpha-release
 [beta release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#beta-release
@@ -70,3 +91,5 @@ declared in a public header file.
 [minor release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#minor-release
 [patch release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#patch-release
 [versioning policy]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md
+[stable release update policy]: https://github.com/openssl/technical-policies/blob/master/policies/stable-release-updates.md
+[API compatibility policy]: https://github.com/openssl/technical-policies/blob/master/policies/api-compat.md
