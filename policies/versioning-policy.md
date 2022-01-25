@@ -26,14 +26,12 @@ changes.
 
 In order to maintain stability and limit rework across major versions:
 
-- No existing public interface can be modified except where changes
+- Existing [public interfaces] will remain unmodified except where changes
   are unlikely to break source compatibility or where structures are being
   made opaque.
-- No existing public interface can be removed until its replacement
-  has been in place in an LTS stable release. The original interface
-  must also have been documented as _deprecated_ for at least 5 years. A
-  public interface is any function, global variable, structure or macro
-  declared in a public header file.
+- Existing public interfaces must remain in at least one LTS release
+  until the original interface has been documented as _deprecated_
+  for at least 5 years.
 - When structures are made opaque, any newly required accessor macros
   or functions are added in a feature release of the extant LTS release
   and all supported intermediate successor releases.
@@ -150,4 +148,5 @@ benefit from these features.
 [major]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#major-release
 [minor]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#minor-release
 [patch]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#patch-release
+[public interfaces]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#public-interfaces
 [stable release update policy]: https://github.com/openssl/technical-policies/blob/master/policies/stable-release-updates.md
