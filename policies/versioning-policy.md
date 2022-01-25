@@ -18,8 +18,9 @@ with _semantic versioning_.  However, it is not quite _semantic versioning_
 because adopting _semantic versioning_ would mean changing our current
 Long Term Support ([LTS]) policies and practices.
 
-## Major release: changing the first digit
+## Major release
 
+A major release is indicated by changing the _first digit_ of the version.
 A major release can, and generally will, introduce API and ABI breaking
 changes.
 
@@ -42,8 +43,9 @@ In order to maintain stability and limit rework across major versions:
 Exceptions to these rules require a vote by the [OMC].  See also the
 [stable release update policy].
 
-## Minor release: changing the second digit
+## Minor release
 
+A minor release is indicated by changing the _second_ digit of the version.
 A minor release can, and generally will, introduce new features.  However both
 the API and ABI will be preserved.
 
@@ -53,17 +55,18 @@ the API and ABI will be preserved.
 
 Exceptions to these rules require a vote by the OMC.
 
-## Patch release: changing the third digit
+## Patch release
 
-A patch release will only contain bug fixes.  Both the API and ABI will remain
-compatible across patch releases.
+A patch release is indicated by changing the _final_ digit of the version.
+A patch release will only contain bug and security fixes.
+Both the API and ABI will remain compatible across patch releases.
 
 > For example, a program linked with OpenSSL release 3.0.0 can
 > run with OpenSSL 3.0.1 without changes.
 
 Exceptions to these rules require a vote by the OMC.
 
-## Long term stable releases
+## Long term stable release
 
 A release can be designated as a release.  LTS releases will be supported
 for at least five years and the project will specify a LTS release at
@@ -77,19 +80,19 @@ as appropriate.
 The addition of new platforms to LTS branches is acceptable so long as
 the required changes consist solely of additions to configuration.
 
-## Prerelease versions
+## Pre-release versions
 
 Before a major release the project will generally make a number of pre-releases.
 These are labelled _alpha_ and _beta_ releases.
 
-### Alpha releases
+### Alpha release
 
 An _alpha_ release is one that is:
 
 - not necessarily feature complete and
 - not necessarily includes all new APIs.
 
-### Beta releases
+### Beta release
 
 A _beta_ release is one that:
 
@@ -119,7 +122,7 @@ include:
   wouldn't actually close the issue/PR but change the milestone instead) and
 - not enough information and unable to contact reporter.
 
-Exceptions require a vote by the [OTC].
+Exceptions require a vote by the [OTC] as per the OTC 
 
 ## History
 
@@ -151,5 +154,5 @@ benefit from these features.
 [major]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#major-release
 [minor]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#minor-release
 [patch]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#patch-release
-[public interfaces]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#public-interfaces
+[public interfaces]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#public-interface
 [stable release update policy]: https://github.com/openssl/technical-policies/blob/master/policies/stable-release-updates.md
