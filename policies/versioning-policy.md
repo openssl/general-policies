@@ -33,9 +33,9 @@ In order to maintain stability and limit rework across major versions:
 - Existing [public interfaces] will remain unmodified except where changes
   are unlikely to break source compatibility or where structures are being
   made opaque.
-- Existing public interfaces must remain in at least one LTS release
-  until the original interface has been documented as _deprecated_
-  for at least 5 years.
+- No existing public interface can be removed until its replacement has
+  been in place in an LTS stable release. The original interface must
+  also have been documented as deprecated for at least 5 years.
 - When structures are made opaque, any newly required accessor macros
   or functions are added in a feature release of the extant LTS release
   and all supported intermediate successor releases.
@@ -87,10 +87,10 @@ These are labelled _alpha_ and _beta_ releases.
 
 ### Alpha release
 
-An _alpha_ release is one that is:
+An _alpha_ release is one that:
 
-- not necessarily feature complete and
-- not necessarily includes all new APIs.
+- is not necessarily feature complete and
+- does not necessarily includes all new APIs.
 
 ### Beta release
 
@@ -99,30 +99,6 @@ A _beta_ release is one that:
 - is feature complete;
 - indicates a feature freeze and
 - only bug fixes are permitted.
-
-## Release criteria
-
-For a major or minor release, the following release criteria apply:
-
-- all open GitHub issues and pull requests older than 2 weeks at the time of
-  release need to be assessed for relevance to the version being released.
-  Any flagged with the a milestone for the version to be released must
-  be closed (see below);
-- clean builds in GitHub Actions for two days and
-- no open Coverity issues (not flagged as _False Positive_ or _Ignore_).
-
-Valid reasons for closing an issue/PR with a milestone for the version
-include:
-
-- we have just now or sometime in the past fixed the issue;
-- unable to reproduce (following discussion with original reporter
-  if possible);
-- working as intended;
-- deliberate decision not to fix this issue until a later release (this
-  wouldn't actually close the issue/PR but change the milestone instead) and
-- not enough information and unable to contact reporter.
-
-Exceptions require a vote by the [OTC] as per the OTC 
 
 ## History
 
@@ -150,7 +126,6 @@ benefit from these features.
 [API]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#api
 [LTS]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#lts
 [OMC]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#omc
-[OTC]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#otc
 [major]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#major-release
 [minor]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#minor-release
 [patch]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#patch-release
