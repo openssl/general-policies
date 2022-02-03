@@ -36,6 +36,12 @@ A bug fix is a fix of functionality of the libraries, modules, applications
 or the build system.
 Refer to the [stable release updates policy] for specific details.
 
+## Bylaws
+
+The [OpenSSL Bylaws] provide the rules under which the OpenSSL project operates.
+This includes the [Committer](#committer), [OMC](#omc) and [OTC](#otc) project
+roles and how decisions are made.
+
 ## CCLA
 
 _Corporate Contributor Licence Agreement_
@@ -64,7 +70,7 @@ Also see: [Contributor Agreements], [ICLA](#icla), [CCLA](#ccla)
 
 ## Committer
 
-OpenSSL committers are contributors who have commit access to the OpenSSL
+OpenSSL [committers] are contributors who have commit access to the OpenSSL
 source code repository.
 
 ## End-user documentation
@@ -140,6 +146,7 @@ Refer to the [stable release updates policy] for specific details.
 
 [alpha release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#alpha-release
 [beta release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#beta-release
+[committers]: https://github.com/openssl/general-policies/blob/master/policies/committer-policy.md
 [Long term support]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#long-term-stable-release
 [major release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#major-release
 [minor release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#minor-release
@@ -153,3 +160,4 @@ Refer to the [stable release updates policy] for specific details.
 [OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
 [CHANGES.md]: https://github.com/openssl/openssl/blob/master/CHANGES.md
 [NEWS.md]: https://github.com/openssl/openssl/blob/master/NEWS.md
+[OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
