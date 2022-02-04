@@ -37,13 +37,15 @@ may also be revoked by the OMC.
 ## Approvals and code reviews
 
 All submissions must be reviewed and approved by at least two committers,
-one of whom must also be an OTC member.  If the author is also a committer
-then that counts as one of the reviews.  In other words:
+one of whom must also be an OTC member.  Neither of the reviewers can
+be the author of the submission.
 
-* OTC members need one approval from any committer
-* Committers need one approval from an OTC member
-* Contributors without commit rights need two approvals, including
-  one from an OTC member.
+The sole exception to this is during the release process where the
+author's review does count towards the two needed for the automated
+release process and [NEWS] and [CHANGES] file updates.
+
+In the case where two committers make a joint submission, they can review
+each other's code but not their own.  A third reviewer will be required.
 
 An OMC member may apply a _hold: needs OMC decision_ label to a submission.
 An OTC member may apply a _hold: needs OTC decision_ to a submission.
@@ -53,7 +55,7 @@ A _hold: needs OTC decision_ label may be removed by the member that put
 in place the hold or by a decision of the OTC.
 
 Approved submissions (outside of the automated release process and
-[NEWS] and [CHANGES] file updates) shall only be applied after a 24-hour
+NEWS and CHANGES file updates) shall only be applied after a 24-hour
 delay from the approval.  An exception to the delay exists for build and
 test breakage fix approvals which should be flagged with the _severity:
 urgent_ label.
@@ -107,3 +109,4 @@ be applied to indicate this.
 [CLAs]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#cla
 [NEWS]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#news
 [CHANGES]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#changes
+[OpenSSL Bylaws]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#bylaws
