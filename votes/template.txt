@@ -1,0 +1,14 @@
+Topic:
+Proposed by:
+Issue link: https://github.com/openssl/general-policies/....
+Public: yes
+Opened: YYYY-MM-DD
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [  ]
+  Richard    [  ]
+  Tim        [  ]
