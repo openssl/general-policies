@@ -1,0 +1,16 @@
+Topic: Accept openssl/general-policies PR#2 - the policy change
+       process proposal as of commit 187816e. This will become an official OMC
+       policy.
+Proposed by: Matt Caswell
+Issue link: https://github.com/openssl/general-policies/pull/2
+Public: yes
+Opened: 2022-02-02
+Closed: 2022-02-16
+Accepted:  yes  (for: 6, against: 0, abstained: 0, not voted: 0)
+
+  Matt       [+1]
+  Mark       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Kurt       [+1]
