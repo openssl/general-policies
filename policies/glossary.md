@@ -1,5 +1,10 @@
 # Glossary of OpenSSL terms
 
+This is a _glossary of terms_, it does not include any _formal definitions_ of
+the included terms.  It does, however, link to the _formal definition_ where
+appropriate.  In the event in a conflict between this glossary and the
+_formal definition_, the _formal definition_ is **always** canonical.
+
 ## ABI
 
 _Application binary interface_
