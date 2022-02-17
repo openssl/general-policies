@@ -62,6 +62,12 @@ Also see: [ICLA](#icla)
 Significant modifications for the OpenSSL library or commands are
 documented in the [CHANGES.md] file.
 
+## CI
+
+_Continuous Integration_
+
+A suite of tests and checks that are run on every pull request, commit or on a daily basis.
+
 ## CLA
 
 _Contributor Licence Agreement_
@@ -82,6 +88,11 @@ source code repository.
 
 End-user documentation is documentation intended for users of the OpenSSL
 libraries and commandline utilities.
+
+## Functional behaviour
+
+What the system does, rather than how it does it.
+Refer to the [testing policy] for specific details.
 
 ## ICLA
 
@@ -137,6 +148,12 @@ A [patch release] is one where API and ABI breaking changes are **not** permitte
 and no additional functionality can be added.
 Refer to the [versioning policy] for specific details.
 
+## perlasm
+
+Assembly code wrapper written in Perl.  This is done to ease compatibility
+problems across assemblers, platforms and processor revisions.
+For further details see the [perlasm README].
+
 ## Public interface
 
 A public interface is any function, global variable, structure or macro
@@ -158,7 +175,9 @@ Refer to the [stable release updates policy] for specific details.
 [patch release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#patch-release
 [versioning policy]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md
 [stable release updates policy]: https://github.com/openssl/technical-policies/blob/master/policies/stable-release-updates.md
+[testing policy]: https://github.com/openssl/technical-policies/blob/master/policies/testing.md
 [API compatibility policy]: https://github.com/openssl/technical-policies/blob/master/policies/api-compat.md
+[perlasm README]: https://github.com/openssl/openssl/blob/master/crypto/perlasm/README.md
 [ICLA]: https://www.openssl.org/policies/openssl_icla.pdf
 [CCLA]: https://www.openssl.org/policies/openssl_ccla.pdf
 [Contributor Agreements]: https://www.openssl.org/policies/cla.html
