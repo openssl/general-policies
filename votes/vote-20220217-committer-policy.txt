@@ -1,0 +1,14 @@
+Topic: Accept the committer policy as of 76bb566cf401e05bc54cd81ce429e83e2827278a
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/issues/8
+Public: yes
+Opened: 2022-02-17
+Closed: 2022-02-21
+Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 2)
+
+  Kurt       [+1]
+  Mark       [  ]
+  Matt       [+1]
+  Pauli      [+1]
+  Richard    [  ]
+  Tim        [+1]
