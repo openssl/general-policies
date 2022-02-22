@@ -1,0 +1,14 @@
+Topic: We should announce that the next LTS release will be 3.0
+Proposed by: Matt Caswell
+https://github.com/openssl/general-policies/issues/9
+Public: yes
+Opened: 2022-02-16
+Closed: 2022-02-22
+Accepted:  yes  (for: 5, against: 0, abstained: 1, not voted: 0)
+
+  Kurt       [+1]
+  Mark       [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Richard    [ 0]
+  Tim        [+1]
