@@ -27,7 +27,7 @@ change proposal on the openssl-project mailing list.
 The Review Process
 ---------------------
 
-If the submitter is not a member of OMC, an OMC member is selected to watch
+If the submitter is not a member of [OMC], an OMC member is selected to watch
 over the review process and propose the final approval vote.
 
 Adjustments to the change proposal happen via the normal GitHub pull request
@@ -66,3 +66,5 @@ and closing the pull request without merging.
 
 If the policy change is approved, the pull request is merged to the
 master branch of the general-policies repository.
+
+[OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc
