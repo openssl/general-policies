@@ -104,6 +104,14 @@ an ICLA.
 
 Also see: [CCLA](#ccla)
 
+## LDP
+
+_Linux Documentation Project_
+
+Our documentation aims to broadly conform with [The Linux Documentation
+Project]'s guidelines.
+Refer to the [documentation policy] for specific details.
+
 ## LTS
 
 _[Long term support]_
@@ -176,6 +184,7 @@ Refer to the [stable release updates policy] for specific details.
 [versioning policy]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md
 [stable release updates policy]: https://github.com/openssl/technical-policies/blob/master/policies/stable-release-updates.md
 [testing policy]: https://github.com/openssl/technical-policies/blob/master/policies/testing.md
+[documentation policy]: https://github.com/openssl/technical-policies/blob/master/policies/documentation-policy.md#language
 [API compatibility policy]: https://github.com/openssl/technical-policies/blob/master/policies/api-compat.md
 [perlasm README]: https://github.com/openssl/openssl/blob/master/crypto/perlasm/README.md
 [ICLA]: https://www.openssl.org/policies/openssl_icla.pdf
@@ -185,3 +194,4 @@ Refer to the [stable release updates policy] for specific details.
 [CHANGES.md]: https://github.com/openssl/openssl/blob/master/CHANGES.md
 [NEWS.md]: https://github.com/openssl/openssl/blob/master/NEWS.md
 [OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
+[The Linux Documentation Project]: https://tldp.org/
