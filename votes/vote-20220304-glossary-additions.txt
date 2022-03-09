@@ -7,7 +7,7 @@ Opened: 2022-03-04
 Closed: 2022-03-09
 Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 2)
 
-  Kurt       [  ]
+  Kurt       [+1]   # 2022-03-09
   Mark       [  ]
   Matt       [+1]
   Pauli      [+1]
