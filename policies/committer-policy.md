@@ -103,7 +103,6 @@ agree that a submission is trivial and the _cla: trivial_ label should
 be applied to indicate this.
 
 [Contributor Agreements]: https://www.openssl.org/policies/cla.html
-[OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
 [OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc
 [OTC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#otc
 [CLAs]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#cla

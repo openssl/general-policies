@@ -193,5 +193,4 @@ Refer to the [stable release updates policy] for specific details.
 [OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
 [CHANGES.md]: https://github.com/openssl/openssl/blob/master/CHANGES.md
 [NEWS.md]: https://github.com/openssl/openssl/blob/master/NEWS.md
-[OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
 [The Linux Documentation Project]: https://tldp.org/
