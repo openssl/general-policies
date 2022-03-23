@@ -4,6 +4,10 @@ Policy on Proposing General Policy Changes
 This policy represents the way that any additions or changes to the existing
 policies are proposed, edited, finalized, and approved.
 
+This policy is only concerned with added or removed policies, or
+changes to the meaning of policies.  Simple corrective changes are
+covered by the [Policy Edit Policy].
+
 Policy Change Proposal
 ----------------------
 
@@ -68,3 +72,4 @@ If the policy change is approved, the pull request is merged to the
 master branch of the general-policies repository.
 
 [OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc
+[Policy Edit Process]: policy-edit-process.md
