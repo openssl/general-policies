@@ -1,0 +1,14 @@
+Topic: Accept the process for minor policy edits as at commit id df47115
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/17
+Public: yes
+Opened: 2022-05-05
+Closed: 2022-05-09
+Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 2)
+
+  Kurt       [+1]
+  Mark       [  ]
+  Matt       [+1]
+  Pauli      [+1]
+  Richard    [+1]
+  Tim        [  ]
