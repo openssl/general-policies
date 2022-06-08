@@ -1,14 +1,14 @@
 Topic: Update security prenotification policy to include MODERATE issues
 Proposed by: Mark Cox
-Issue link: https://github.com/openssl/general-policies/pull/20
+Issue link: https://github.com/openssl/general-policies/pull/21
 Public: yes
-Opened: 2022-05-11
-Closed: YYYY-MM-DD
-Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+Opened: 2022-05-30
+Closed: 2022-06-08
+Accepted:  yes  (for: 5, against: 0, abstained: 0, not voted: 1)
 ￼
-￼  Kurt       [  ]
-￼  Mark       [  ]
-￼  Matt       [  ]
-￼  Pauli      [  ]
-￼  Richard    [  ]
+￼  Kurt       [+1]
+￼  Mark       [+1]
+￼  Matt       [+1]
+￼  Pauli      [+1]
+￼  Richard    [+1]
 ￼  Tim        [  ]
