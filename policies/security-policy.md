@@ -82,7 +82,7 @@ Prenotification policy
    and update the OpenSSL website to give our scheduled update release date
    and time and the severity of issues being fixed by the update. No further
    information about the issues will be given.
- - Where we are planning an update that include CRITICAL or HIGH severity
+ - Where we are planning an update that include CRITICAL, HIGH, or MODERATE severity
    issues we will also prenotify certain organisations with more details
    and patches.
    - The organisations we prenotify include those that produce a general
