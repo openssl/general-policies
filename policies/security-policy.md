@@ -48,31 +48,33 @@ We will determine the risk of each issue, taking into account our experience
 dealing with past issues, versions affected, common defaults, and use cases.
 We use the following severity categories:
 
- - **CRITICAL** Severity. This affects common configurations and which are
-   also likely to be exploitable. Examples include significant disclosure
-   of the contents of server memory (potentially revealing user details),
-   vulnerabilities which can be easily exploited remotely to compromise
-   server private keys or where remote code execution is considered likely
-   in common situations. These issues will be kept private and will trigger
-   a new release of all supported versions. We will attempt to address these
-   as soon as possible.
- - **HIGH** Severity. This includes issues that are of a lower risk than
-   critical, perhaps due to affecting less common configurations, or which
-   are less likely to be exploitable. These issues will be kept private and
-   will trigger a new release of all supported versions. We will attempt to
-   keep the time these issues are private to a minimum; our aim would be no
-   longer than a month where this is something under our control.
- - **MODERATE** Severity. This includes issues like crashes in client
-   applications, flaws in protocols that are less commonly used (such as
-   DTLS), and local flaws. These will in general be kept private until the
-   next release, and that release will be scheduled so that it can roll up
-   several such flaws at one time.
- - **LOW** Severity. This includes issues such as those that only affect
-   the openssl command line utility, or unlikely configurations. These will
-   in general be fixed immediately in latest development versions, and may
-   be backported to older versions that are still getting updates. We will
-   update the vulnerabilities page and note the issue CVE in the changelog
-   and commit message, but they may not trigger new releases.
+ - <a name="critical">**CRITICAL**</a> Severity. This affects common
+   configurations and which are also likely to be exploitable. Examples
+   include significant disclosure of the contents of server memory
+   (potentially revealing user details), vulnerabilities which can be easily
+   exploited remotely to compromise server private keys or where remote code
+   execution is considered likely in common situations. These issues will be
+   kept private and will trigger a new release of all supported versions. We
+   will attempt to address these as soon as possible.
+ - <a name="high">**HIGH**</a> Severity. This includes issues that are of a
+   lower risk than critical, perhaps due to affecting less common
+   configurations, or which are less likely to be exploitable. These issues
+   will be kept private and will trigger a new release of all supported
+   versions. We will attempt to keep the time these issues are private to a
+   minimum; our aim would be no longer than a month where this is something
+   under our control.
+ - <a name="moderate">**MODERATE**</a> Severity. This includes issues like
+   crashes in client applications, flaws in protocols that are less commonly
+   used (such as DTLS), and local flaws. These will in general be kept
+   private until the next release, and that release will be scheduled so
+   that it can roll up several such flaws at one time.
+ - <a name="low">**LOW**</a> Severity. This includes issues such as those
+   that only affect the openssl command line utility, or unlikely
+   configurations. These will in general be fixed immediately in latest
+   development versions, and may be backported to older versions that are
+   still getting updates. We will update the vulnerabilities page and note
+   the issue CVE in the changelog and commit message, but they may not
+   trigger new releases.
 
 Prenotification policy
 ----------------------
