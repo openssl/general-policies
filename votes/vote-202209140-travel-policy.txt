@@ -1,0 +1,18 @@
+Topic: Accept the travel policy as at commit f9f4922
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/26
+comment: We need something in place quickly so flight planning for the
+         upcoming face to face can be done.  There is an intention to
+         consider the existing feedback and update the policy in the
+         near future.
+Public: yes
+Opened: 2022-09-14
+Closed: 2022-09-15
+Accepted:  yes  (for: 4, against: 0, abstained: 1, not voted: 1)
+
+  Kurt       [ 0]
+  Mark       [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Richard    [  ]
+  Tim        [+1]
