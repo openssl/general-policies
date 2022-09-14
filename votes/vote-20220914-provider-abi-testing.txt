@@ -1,0 +1,16 @@
+Topic: Prior to any future release, we will confirm the provider ABI works for all prior released versions of provider modules (currently fips and legacy).
+Proposed by: Tim Hudson
+Issue Link: https://github.com/openssl/general-policies/issues/27
+Public: yes
+Opened: 2022-09-14
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [  ]
+  Richard    [  ]
+  Tim        [  ]
+
+
