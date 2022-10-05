@@ -1,0 +1,13 @@
+Topic: Accept the policy for releasing information as at c78f885
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/24
+Opened: 2022-09-28
+Closed: 2022-10-05
+Accepted:  yes  (for: , against: 0, abstained: 0, not voted: )
+
+  Kurt       [ 0]
+  Mark       [ 0]
+  Matt       [+1]
+  Pauli      [+1]
+  Richard    [+1]
+  Tim        [+1]
