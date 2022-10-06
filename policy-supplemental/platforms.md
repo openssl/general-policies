@@ -1,4 +1,64 @@
-# current unadopted platforms
+## Current primary platforms
+
+| Target           | &nbsp; | O/S                   | &nbsp; | Architecture | &nbsp; | Toolchain                            |
+|------------------|--------|-----------------------|--------|--------------|--------|--------------------------------------|
+| linux-x86\_64    |        | Ubuntu Server 20.04.3 |        | x86\_64      |        | gcc 9.3.0                            |
+| linux-generic64  |        | Ubuntu Server 20.04.3 |        | x86\_64      |        | gcc 9.3.0                            |
+| linux-x86        |        | Debian 11.2           |        | x86          |        | gcc 11.2.0                           |
+| linux-generic32  |        | Debian 11.2           |        | x86          |        | gcc 11.2.0                           |
+| BSD-x86\_64      |        | FreeBSD 13.0          |        | x86\_64      |        | Clang 11                             |
+| VC-WIN64A        |        | Windows 10            |        | x86\_64      |        | Visual Studio 2019 Community Edition |
+| mingw64          |        | Windows 10            |        | x86\_64      |        | MinGW (64 bit) and MSYS2             |
+| darwin64-x86\_64 |        | Mac OS Big Sur (11)   |        | x86\_64      |        | clang 12.?                           |
+| darwin64-arm64   |        | Mac OS Big Sur (11)   |        | AArch64 (M1) |        | clang 12.?                           |
+
+## Current secondary platforms
+
+| Target       | &nbsp; | O/S         | &nbsp; | Architecture | &nbsp; | Toolchain       | &nbsp; | Nominated Committer(s) |
+|--------------|--------|-------------|--------|--------------|--------|-----------------|--------|------------------------|
+| vms-ia64     |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4       |        | \@levitte              |
+| vms-ia64-p32 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^1]  |        | \@levitte              |
+| vms-ia64-p64 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^2]  |        | \@levitte              |
+| vms-x86\_64  |        | OpenVMS 8.4 |        | x86\_64      |        | VSI C X7.4 [^3] |        | \@levitte              |
+
+[^1]: [VMS] 32 bit pointer build
+[^2]: [VMS] 64 bit pointer build
+[^3]: [VMS] cross compile on ia64, currently build only
+
+## Current community platforms
+
+| Target                  | &nbsp; | O/S                | &nbsp; | Architecture            | &nbsp; | Toolchain       | &nbsp; | Nominated Community Member(s)                           |
+|-------------------------|--------|--------------------|--------|-------------------------|--------|-----------------|--------|---------------------------------------------------------|
+| vms-alpha               |        | OpenVMS 8.4        |        | alpha                   |        | VSI C 7.4       |        | \@levitte                                               |
+| vms-alpha-p32           |        | OpenVMS 8.4        |        | alpha                   |        | VSI C 7.4 [^1]  |        | \@levitte                                               |
+| vms-alpha-p64           |        | OpenVMS 8.4        |        | alpha                   |        | VSI C 7.4 [^2]  |        | \@levitte                                               |
+| nonstop-nsx             |        | NonStop OSS L21.06 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_put        |        | NonStop OSS L21.06 |        | x86\_64 ilp32 PUT       |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_64         |        | NonStop OSS L21.06 |        | x86\_64 lp64            |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_64\_put    |        | NonStop OSS L21.06 |        | x86\_64 lp64 PUT        |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_spt        |        | NonStop OSS L21.06 |        | x86\_64 ilp32 SPT       |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_spt\_floss |        | NonStop OSS L21.06 |        | x86\_64 ilp32 SPT FLOSS |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsv             |        | NonStop OSS L21.06 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nse             |        | NonStop OSS J06.22 |        | ia64 ilp32              |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nse\_put        |        | NonStop OSS J06.22 |        | ia64 ilp32 PUT          |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nse\_64         |        | NonStop OSS J06.22 |        | ia64 lp64               |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nse\_64\_put    |        | NonStop OSS J06.22 |        | ia64 lp64 PUT           |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nse\_spt        |        | NonStop OSS J06.22 |        | ia64 ipl32 SPT          |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nse\_spt\_floss |        | NonStop OSS J06.22 |        | ia64 ipl32 SPT FLOSS    |        | c99             |        | \@rsbeckerca                                            |
+| linux64-loongarch64     |        | Linux              |        | loongarch64             |        | gcc             |        | \@shipujin                                              |
+| BSD-armv4               |        | FreeBSD            |        | armv4                   |        | LLVM            |        | \@pkubaj                                                |
+| BSD-ppc                 |        | FreeBSD            |        | ppc                     |        | LLVM            |        | \@pkubaj                                                |
+| BSD-ppc64               |        | FreeBSD            |        | ppc64                   |        | LLVM            |        | \@pkubaj                                                |
+| BSD-ppc64le             |        | FreeBSD            |        | ppc64le                 |        | LLVM            |        | \@pkubaj                                                |
+| BSD-riscv64             |        | FreeBSD            |        | riscv64                 |        | LLVM            |        | \@pkubaj                                                |
+| solaris64-x86\_64-gcc   |        | Solaris            |        | x86\_64                 |        | gcc             |        | \@orcl-jlana \@cernoseka                                |
+| solaris64-x86\_64-cc    |        | Solaris            |        | x86\_64                 |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
+| solaris64-sparcv9-gcc   |        | Solaris            |        | Sparc V9 64 bit         |        | gcc             |        | \@orcl-jlana \@cernoseka                                |
+| solaris64-sparcv9-cc    |        | Solaris            |        | Sparc V9 64 bit         |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
+| linux64-s390x           |        | Linux              |        | s390x                   |        | gcc             |        | \@juergenchrist \@ifranzki                              |
+| linux-aarch64           |        | Linux              |        | aarch64                 |        | gcc             |        | \@zorrorffm \@daniel-hu-arm \@xkqian \@tom-cosgrove-arm |
+
+## Current unadopted platforms
 
 | Target                 | &nbsp; | O/S                               | &nbsp; | Architecture        | &nbsp; | Toolchain               |
 |------------------------|--------|-----------------------------------|--------|---------------------|--------|-------------------------|
