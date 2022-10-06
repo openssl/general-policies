@@ -14,8 +14,6 @@ platforms are showing as "green" in CI. If the CI breaks for a branch
 (such as for a stable version or master) then it should be fixed as a
 priority.
 
-[Current primary platforms](../policy-supplemental/primary-platforms.html)
-
 ## Secondary
 
 *Definition:* A platform that is regularly tested through project CI
@@ -30,8 +28,6 @@ the CI for a branch (such as for a stable version or master) on a
 secondary platform breaks, then a resolution should be sought as soon
 as is practically possible and before a release is made from the
 branch.
-
-[Current secondary platforms](../policy-supplemental/secondary-platforms.html)
 
 ## Community
 
@@ -54,8 +50,6 @@ the community maintainer may be contacted to help find a
 resolution. If a community maintainer is unresponsive, or unable to
 provide fixes then the platform may be moved to "unadopted".
 
-[Current community platforms](../policy-supplemental/community-platforms.html)
-
 ## Unadopted
 
 *Definition:* Platforms that no one has volunteered to support.
@@ -66,4 +60,6 @@ left unresolved where it is not feasible to find a suitable fix.
 Support for such platforms may be removed entirely from the OpenSSL
 code base in future releases.
 
-[Current unadopted platforms](../policy-supplemental/unadopted-platforms.html)
+-----
+
+[Current platforms](../policy-supplemental/platforms.html)
