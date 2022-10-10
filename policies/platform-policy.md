@@ -4,6 +4,8 @@ Platforms are classified as "primary", "secondary", "community"
 and "unadopted". Support for a new platform should only be added if it
 is being adopted as a primary, secondary or community platform.
 
+[Current platforms](../policy-supplemental/platforms.html)
+
 ## Primary
 
 *Definition:* A platform that is regularly tested through project CI
@@ -59,7 +61,3 @@ without access to the platform itself. Platform specific issues may be
 left unresolved where it is not feasible to find a suitable fix.
 Support for such platforms may be removed entirely from the OpenSSL
 code base in future releases.
-
------
-
-[Current platforms](../policy-supplemental/platforms.html)
