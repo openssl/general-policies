@@ -1,0 +1,14 @@
+Topic: Accept PR#19375 to add RIPEMD160 to the default provider for 3.0 subject
+       to the normal review process
+Proposed by: Tim
+Public: yes
+Opened: 2022-10-12
+Closed: 2022-10-12
+Accepted:  yes/no  (for: 3, against: 0, abstained: 2, not voted: 1)
+
+  Matt       [+1]
+  Mark       [+1]
+  Pauli      [ 0]
+  Tim        [ 0]
+  Richard    [+1]
+  Kurt       [  ]
