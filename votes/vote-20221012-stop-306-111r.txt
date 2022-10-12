@@ -1,0 +1,15 @@
+Topic: Stop distributing 1.1.1r and 3.0.6 while the problems are investigated.
+comment: An announcement should also be made.
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/32
+Public: yes
+Opened: 2022-10-12
+Closed: 2022-10-12
+Accepted:  yes  (for: 3, against: 0, abstained: 2, not voted: 1)
+
+  Kurt       [  ]
+  Mark       [ 0]
+  Matt       [+1]
+  Pauli      [+1]
+  Richard    [ 0]
+  Tim        [+1]
