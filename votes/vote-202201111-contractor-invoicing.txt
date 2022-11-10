@@ -1,0 +1,14 @@
+Topic: Accept the contractor invoicing policy as of 6a31c748f65a39be1594bf93bd1209880fac8ee1
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/30
+Public: yes
+Opened: 2022-11-11
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [  ]
+  Richard    [  ]
+  Tim        [  ]
