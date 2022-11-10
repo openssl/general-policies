@@ -1,0 +1,14 @@
+Topic: Accept the travel policy as of a38676a4f62ef3131c82fade0e12cff4099e23e9
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/29
+Public: yes
+Opened: 2022-11-11
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [  ]
+  Richard    [  ]
+  Tim        [  ]
