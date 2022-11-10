@@ -1,0 +1,14 @@
+Topic: Accept the accessing sensitive information policy as of 2894caf7b051387f16f0fbbd8f6c5c9ebd3b79e7
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/25
+Public: yes
+Opened: 2022-11-11
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [  ]
+  Richard    [  ]
+  Tim        [  ]
