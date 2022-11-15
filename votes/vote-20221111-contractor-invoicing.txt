@@ -6,9 +6,9 @@ Opened: 2022-11-11
 Closed: YYYY-MM-DD
 Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
 
-  Kurt       [  ]
-  Mark       [  ]
-  Matt       [  ]
-  Pauli      [  ]
+  Kurt       [+0]
+  Mark       [ 0]
+  Matt       [+1]
+  Pauli      [+1]
   Richard    [  ]
-  Tim        [  ]
+  Tim        [+1]
