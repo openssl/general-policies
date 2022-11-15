@@ -7,8 +7,8 @@ Closed: YYYY-MM-DD
 Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
 
   Kurt       [  ]
-  Mark       [  ]
-  Matt       [  ]
-  Pauli      [  ]
+  Mark       [ 0]
+  Matt       [+1]
+  Pauli      [+1]
   Richard    [  ]
-  Tim        [  ]
+  Tim        [+1]
