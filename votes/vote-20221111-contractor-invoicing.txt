@@ -4,7 +4,7 @@ Issue link: https://github.com/openssl/general-policies/pull/30
 Public: yes
 Opened: 2022-11-11
 Closed: YYYY-MM-DD
-Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+Accepted:  yes  (for: 3, against: 0, abstained: 2, not voted: 1)
 
   Kurt       [+0]
   Mark       [ 0]
