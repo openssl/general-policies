@@ -4,8 +4,8 @@
 |------------------|--------|---------------------|--------|--------------|--------|--------------------------------------|
 | linux-x86\_64    |        | Ubuntu Server 20.04 |        | x86\_64      |        | gcc 9                                |
 | linux-generic64  |        | Ubuntu Server 20.04 |        | x86\_64      |        | gcc 9                                |
-| linux-x86        |        | Debian 11           |        | x86          |        | gcc 11                               |
-| linux-generic32  |        | Debian 11           |        | x86          |        | gcc 11                               |
+| linux-x86        |        | Debian 11           |        | x86          |        | gcc 10                               |
+| linux-generic32  |        | Debian 11           |        | x86          |        | gcc 10                               |
 | BSD-x86\_64      |        | FreeBSD 13.0        |        | x86\_64      |        | Clang 11                             |
 | VC-WIN64A        |        | Windows 10          |        | x86\_64      |        | Visual Studio 2019 Community Edition |
 | mingw64          |        | Windows 10          |        | x86\_64      |        | MinGW (64 bit) and MSYS2             |
