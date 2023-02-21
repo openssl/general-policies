@@ -1,0 +1,27 @@
+Topic: Premium support customers get one zero cost FIPS re-brand per year.
+Comment: * Existing FIPS validations can be re-branded.  Pending and future
+           validations cannot be re-branded until after the certificate
+           is issued.
+         * The old FOM for OpenSSL 1.0.2 cannot be re-branded.
+         * Re-brands cannot be banked.  If one isn't used in any
+           year, it is lost.
+         * A re-brand that spans contract renewal counts against the
+           year the process began (i.e. the earlier year).
+         * Premium support customers must have premium support both at
+           the time of initiating the re-brand and when it concluded.
+         * The year is defined by the beginning and renewal of the contract.
+           A contract starting or renewing on the 1st of May means the
+           year runs 1st of May through 30th of April inclusive.
+Proposed by: Pauli
+Issue link: https://github.com/openssl/general-policies/pull/40
+Public: yes
+Opened: 2023-02-27
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [+1]
+  Richard    [  ]
+  Tim        [  ]
