@@ -56,7 +56,7 @@
 | solaris64-sparcv9-gcc   |        | Solaris            |        | Sparc V9 64 bit         |        | gcc             |        | \@orcl-jlana \@cernoseka                                |
 | solaris64-sparcv9-cc    |        | Solaris            |        | Sparc V9 64 bit         |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
 | linux64-s390x           |        | Linux              |        | s390x                   |        | gcc             |        | \@juergenchrist \@ifranzki                              |
-| linux-aarch64           |        | Linux              |        | aarch64                 |        | gcc             |        | \@zorrorffm \@daniel-hu-arm \@xkqian \@tom-cosgrove-arm |
+| linux-aarch64           |        | Linux              |        | aarch64                 |        | gcc             |        | \@zorrorffm \@xkqian \@tom-cosgrove-arm |
 
 ## Current unadopted platforms
 
