@@ -16,12 +16,12 @@ Proposed by: Pauli
 Issue link: https://github.com/openssl/general-policies/pull/40
 Public: yes
 Opened: 2023-02-27
-Closed: YYYY-MM-DD
-Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+Closed: 2023-03-06
+Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 2)
 
   Kurt       [  ]
-  Mark       [  ]
-  Matt       [  ]
+  Mark       [+1]
+  Matt       [+1]
   Pauli      [+1]
   Richard    [  ]
-  Tim        [  ]
+  Tim        [+1]
