@@ -19,7 +19,7 @@ Opened: 2023-02-27
 Closed: 2023-03-06
 Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 2)
 
-  Kurt       [  ]
+  Kurt       [ 0]   # 2023-03-13
   Mark       [+1]
   Matt       [+1]
   Pauli      [+1]
