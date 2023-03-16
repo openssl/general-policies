@@ -4,7 +4,7 @@ Proposed by: Tim
 Public: yes
 Opened: 2022-10-12
 Closed: 2022-10-12
-Accepted:  yes/no  (for: 5, against: 0, abstained: 1, not voted: 0)
+Accepted:  yes  (for: 5, against: 0, abstained: 1, not voted: 0)
 
   Matt       [+1]
   Mark       [+1]
