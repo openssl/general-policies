@@ -29,5 +29,5 @@ In the form:
 * Additional expenses as approved can be included, subject to the expenses reimbursement process to ensure the expenses are itemized in the right way for tax (etc). These additional expenses should be submitted via a google form that is created for this purpose. This will automatically send a notification to the finance@openssl.org mailing list too.
 * Manager to batch payments (contractors expenses, invoices) as much as possible, to have a maximum of two potential payment dates a month, and communicate that to contractors.
 
-[Payment Run Schedule Table]: (.../general-policies/policy-supplemental/Payment-Run-Schedule-Table.md)
-[Online Form]: (.../docs.google.com/forms/d/e/1FAIpQLSeArUbveC_v_k39khbBc_PgE_qLRk3kBAd_j-0tc-knx-0bYA/viewform)
+[Payment Run Schedule Table]: ../general-supplemental/Payment-Run-Schedule-Table.html
+[Online Form]: https://docs.google.com/forms/d/e/1FAIpQLSeArUbveC_v_k39khbBc_PgE_qLRk3kBAd_j-0tc-knx-0bYA/viewform
