@@ -1,0 +1,14 @@
+Topic: Accept the trademark policy as of f9c514936aabcfaa9cdf0593891485daf09e6f57
+Proposed by: Paul
+Issue link: https://github.com/openssl/general-policies/pull/37
+Public: yes
+Opened: 2023-04-12
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [  ]
+  Richard    [  ]
+  Tim        [  ]
