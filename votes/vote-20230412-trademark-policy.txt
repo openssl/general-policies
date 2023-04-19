@@ -3,12 +3,12 @@ Proposed by: Paul
 Issue link: https://github.com/openssl/general-policies/pull/37
 Public: yes
 Opened: 2023-04-12
-Closed: YYYY-MM-DD
-Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+Closed: 2023-04-20
+Accepted:  yes  (for: 3, against: 1, abstained: 2, not voted: 0)
 
   Kurt       [ 0]
-  Mark       [  ]
-  Matt       [  ]
+  Mark       [+1]
+  Matt       [-1]
   Pauli      [+1]
-  Richard    [  ]
+  Richard    [-0]
   Tim        [+1]
