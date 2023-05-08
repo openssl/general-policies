@@ -57,6 +57,8 @@
 | solaris64-sparcv9-cc    |        | Solaris            |        | Sparc V9 64 bit         |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
 | linux64-s390x           |        | Linux              |        | s390x                   |        | gcc             |        | \@holger-dengler \@ifranzki                             |
 | linux-aarch64           |        | Linux              |        | aarch64                 |        | gcc             |        | \@zorrorffm \@xkqian \@tom-cosgrove-arm |
+| hurd-x86                |        | Hurd               |        | x86                     |        | gcc             |        | \@sthibaul                                              |
+| hurd-x86\_64            |        | Hurd               |        | x86\_64                 |        | gcc             |        | \@sthibaul                                              |
 
 ## Current unadopted platforms
 
@@ -140,7 +142,6 @@
 | darwin64-ppc           |        | MacOS?                            |        | ppc64               |        |                         |
 | darwin-i386            |        | MacOS?                            |        | x86                 |        |                         |
 | darwin-i386            |        | MacOS?                            |        | x86                 |        |                         |
-| hurd-x86               |        | Hurd                              |        | x86                 |        | gcc                     |
 | vxworks-ppc60x         |        | vxworks                           |        | ppc32               |        |                         |
 | vxworks-ppcgen         |        | vxworks                           |        | ppc32               |        |                         |
 | vxworks-ppc405         |        | vxworks                           |        | ppc32 405           |        |                         |
