@@ -75,12 +75,16 @@ or committers with `@openssl/committers`.
 
 ## Commit workflow
 
-We do code reviews on GitHub.  The OpenSSL GitHub repository is a mirror,
-so we do not merge on GitHub.  When you become a committer, we'll send
-you instructions to get commit access to the main repository.  To have
-handy links to review history, we record the reviewers and GitHub pull
-request IDs in commit headers.  We have some helper scripts in the tools
-repo to add these headers automatically.
+Code changes are submitted on Github as pull requests, which are subject to
+peer review.  The OpenSSL GitHub repository is a mirror, so we do not merge
+on GitHub.  When you become a committer, we'll send you instructions to get
+commit access to the main repository.  To have handy links to review
+history, we record the reviewers and GitHub pull request IDs in commit
+headers.  We have some helper scripts in the tools repo to add these headers
+automatically.
+
+Some commits, created and signed by OpenSSL designated bots, may be reviewed
+by other means, and do not receive review records as described above.
 
 We don't use merge commits.
 
