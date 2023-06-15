@@ -1,0 +1,13 @@
+Topic: Modify the commit workflow to allow some unrecorded reviews
+Proposed by: Richard Levitte
+Issue link: https://github.com/openssl/general-policies/pull/48
+Opened: 2023-06-13
+Closed: 2023-06-15
+Accepted:  yes  (for: 5, against: 0, abstained: 0, not yet voted: 1)
+
+  Matt       [+1]
+  Mark       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Kurt       [  ]
