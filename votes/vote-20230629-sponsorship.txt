@@ -1,0 +1,14 @@
+Topic: As per the recommendation of the Working Group, the OMC to accept the
+       Sponsorship Policy as of commit e784301522b640a47dcb69c722c74a3daa2fe3d1.
+Proposed by: Tam
+Issue link: https://github.com/openssl/general-policies/pull/46
+Public: yes
+Opened: 2023-06-29
+Closed: YYYY-MM-DD
+Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+
+  Kurt       [  ]
+  Mark       [  ]
+  Matt       [  ]
+  Pauli      [+1]
+  Tim        [  ]
