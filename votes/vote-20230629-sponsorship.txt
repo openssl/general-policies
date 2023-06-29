@@ -4,11 +4,11 @@ Proposed by: Tam
 Issue link: https://github.com/openssl/general-policies/pull/46
 Public: yes
 Opened: 2023-06-29
-Closed: YYYY-MM-DD
-Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: W)
+Closed: 2023-06-29
+Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 1)
 
   Kurt       [  ]
-  Mark       [  ]
-  Matt       [  ]
+  Mark       [+1]
+  Matt       [+1]
   Pauli      [+1]
-  Tim        [  ]
+  Tim        [+1]
