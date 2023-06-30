@@ -56,9 +56,16 @@
 | solaris64-sparcv9-gcc   |        | Solaris            |        | Sparc V9 64 bit         |        | gcc             |        | \@orcl-jlana \@cernoseka                                |
 | solaris64-sparcv9-cc    |        | Solaris            |        | Sparc V9 64 bit         |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
 | linux64-s390x           |        | Linux              |        | s390x                   |        | gcc             |        | \@holger-dengler \@ifranzki                             |
-| linux-aarch64           |        | Linux              |        | aarch64                 |        | gcc             |        | \@zorrorffm \@xkqian \@tom-cosgrove-arm |
+| linux-aarch64           |        | Linux              |        | aarch64                 |        | gcc             |        | \@zorrorffm \@xkqian \@tom-cosgrove-arm                 |
 | hurd-x86                |        | Hurd               |        | x86                     |        | gcc             |        | \@sthibaul                                              |
 | hurd-x86\_64            |        | Hurd               |        | x86\_64                 |        | gcc             |        | \@sthibaul                                              |
+| ios-xcrun               |        | iOS                |        | armv7                   |        | Apple clang 12  |        | \@fwh-dc                                                |
+| ios64-xcrun             |        | iOS                |        | aarch64                 |        | Apple clang 12  |        | \@fwh-dc                                                |
+| iossimulator-xcrun      |        | iOS Simulator      |        | x86\_64 or aarch64      |        | Apple clang 12  |        | \@fwh-dc                                                |
+| iossimulator-arm64-xcrun|        | iOS Simulator      |        | aarch64                 |        | Apple clang 12  |        | \@fwh-dc                                                |
+| iphoneos-cross          |        | iOS                |        | ?                       |        | Apple clang 12  |        | \@fwh-dc                                                |
+| ios-cross               |        | iOS                |        | armv7                   |        | Apple clang 12  |        | \@fwh-dc                                                |
+| ios64-cross             |        | iOS                |        | aarch64                 |        | Apple clang 12  |        | \@fwh-dc                                                |
 
 ## Current unadopted platforms
 
@@ -157,12 +164,6 @@
 | android-mips64         |        | android                           |        | mips64              |        |                         |
 | android-x86            |        | android                           |        | x86                 |        |                         |
 | android-x86\_64        |        | android                           |        | x86\_64             |        |                         |
-| ios-xcrun              |        | iOS                               |        | armv7               |        |                         |
-| ios64-xcrun            |        | iOS                               |        | aarch64             |        |                         |
-| iossimulator-xcrun     |        | iOS                               |        | ?                   |        |                         |
-| iphoneos-cross         |        | iphoneos?                         |        | ?                   |        |                         |
-| ios-cross              |        | iOS                               |        | armv7               |        |                         |
-| ios64-cross            |        | iOS                               |        | aarch64             |        |                         |
 | BC-32                  |        | Windows 10?                       |        | x86                 |        | Borland C, C++ Builder? |
 | DJGPP                  |        | DOS?                              |        | x86?                |        | djgpp                   |
 | haiku-x86              |        | Haiku                             |        | x86                 |        | gcc?                    |
