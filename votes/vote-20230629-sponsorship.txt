@@ -7,7 +7,7 @@ Opened: 2023-06-29
 Closed: 2023-06-29
 Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 1)
 
-  Kurt       [  ]
+  Kurt       [+1]   # 2023-06-30
   Mark       [+1]
   Matt       [+1]
   Pauli      [+1]
