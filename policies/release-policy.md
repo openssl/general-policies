@@ -1,4 +1,5 @@
 # Time-based Release Policy
+
 This policy outlines the systematic process followed for the time-based release
 of the OpenSSL software library. The approach aims to deliver regular,
 predictable updates and innovations to users while maintaining optimal workflow
@@ -15,23 +16,27 @@ by the set release date, the release proceeds as scheduled instead of being
 delayed for that feature.
 
 ## Schedule
+
 The OpenSSL release schedule follows a biannual model, with new versions being
 launched every April and October. Multiple releases may be active concurrently,
 resulting in overlapping release cycles. Each release is divided into the
 following phases:
-* **Planning**:
-Continuous process, provides input to the Release Definition phase.
-* **Release Definition**:
-Defines release backlog, lasts up to 4 weeks.
-* **Development**:
-Execution of the release backlog, spans from 20 to 24 weeks.
-* **Release**:
-Addressing issues discovered by the community in pre-releases. Up to 6 weeks.
-* **Support**:
-A support phase.
+
+ * **Planning**:
+   Continuous process, provides input to the Release Definition phase.
+ * **Release Definition**:
+   Defines release backlog, lasts up to 4 weeks.
+ * **Development**:
+   Execution of the release backlog, spans from 20 to 24 weeks.
+ * **Release**:
+   Addressing issues discovered by the community in pre-releases. Up to 6 weeks.
+ * **Support**:
+   A support phase.
 
 ## Phases
+
 ### 1. Planning
+
 Planning is a continuous process of backlog refinement, running outside of
 release cycles, leading up to the Release Definition phase. This phase involves
 regular planning and backlog refinement sessions where the prioritised product
@@ -51,15 +56,17 @@ the OpenSSL Management Committee (OMC). Following the sign-off, the release
 plans are communicated externally.
 
 ### 3. Development
+
 The Development phase centres on the implementation and execution of tasks
 identified in the release backlog. The phase can span from 20 to 24 weeks. To
 ensure timely release, commitments are periodically verified, and necessary
 adjustments are made. While the release backlog is generally maintained as
 initially defined, modification may be authorised by the release steering
-committee[^2] under specific circumstances, such as:
-* A task, initially underestimated, poses a risk of not being completed.
-* The emergence of an unexpected high-priority task necessitates immediate
-  resolution.
+committee under specific circumstances, such as:
+
+ * A task, initially underestimated, poses a risk of not being completed.
+ * The emergence of an unexpected high-priority task necessitates immediate
+   resolution.
 
 Any modifications to the release backlog should be conducted with an intent to
 preserve the balance. Thus, whenever a task is added, an equivalent effort lower
@@ -73,6 +80,7 @@ committee. Upon successful completion of this check, an alpha release is
 created, marking the beginning of the Alpha phase.
 
 ### 4. Release
+
 The Release phase of OpenSSL library commences with the creation of an alpha
 release at the end of the Development phase and spans over a period of six
 weeks. In the Release phase, no new features can be added, nor can any code
@@ -101,6 +109,7 @@ is crucial to ensure the quality of the release and, consequently, the success.
 See [Release Requirements Policy] for details on each type of release.
 
 ### 5. Support
+
   * **Full Support**:
   Upon the final release a one-year Full Support period is initiated for regular
   releases, and a four-year Full Support period for LTS releases. During this
