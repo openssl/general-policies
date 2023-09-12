@@ -60,6 +60,10 @@ delay from the approval.  An exception to the delay exists for build and
 test breakage fix approvals which should be flagged with the _severity:
 urgent_ label.
 
+The use of the _severity: urgent_ label should be limited to contexts where the
+breakage is within the CI (including buildbot) within the last 72 hours and the
+change is straight forward.
+
 Contributors without commit rights cannot formally approve patches but
 are nevertheless welcome to comment on submissions and do technical
 reviews.  We always value another pair of eyes, and volunteering for
