@@ -66,6 +66,7 @@
 | iphoneos-cross          |        | iOS                |        | ?                       |        | Apple clang 12  |        | \@fwh-dc                                                |
 | ios-cross               |        | iOS                |        | armv7                   |        | Apple clang 12  |        | \@fwh-dc                                                |
 | ios64-cross             |        | iOS                |        | aarch64                 |        | Apple clang 12  |        | \@fwh-dc                                                |
+| linux-ppc64le           |        | Linux              |        | ppc64 little endian     |        | gcc             |        | \@rohanmclure \@erichte-ibm \@naynajain                 |
 
 ## Current unadopted platforms
 
@@ -98,7 +99,6 @@
 | tru64-alpha-cc         |        | Tru64                             |        | alpha               |        | ??                      |
 | linux-ppc              |        | Linux                             |        | ppc32               |        | gcc                     |
 | linux-ppc64            |        | Linux                             |        | ppc64 big endian    |        | gcc                     |
-| linux-ppc64le          |        | Linux                             |        | ppc64 little endian |        | gcc                     |
 | linux-armv4            |        | Linux                             |        | armv4               |        | gcc                     |
 | linux-arm64ilp32       |        | Linux                             |        | aarch64-ilp32       |        | gcc                     |
 | linux-mips32           |        | Linux                             |        | mips32 o32          |        | gcc                     |
