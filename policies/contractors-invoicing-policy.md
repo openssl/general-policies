@@ -4,13 +4,8 @@ The OpenSSL organization is purely remote without any office. The organization h
 
 ## Contractor Invoice Submission
 
-1. Contractors send their invoices via the [Online Form] or send them directly to **finance@openssl.org** in the format and providing the information as detailed below. If an invoice is submitted via the form, notification to the finance@openssl.org mailing list will be sent automatically. 
+1. Contractors send their invoices directly to **finance@openssl.org** in a universally readable format, such as .pdf, and providing the information as detailed below.
 
-In the form:
-   * Select the month for your invoice.
-   * Type the number of worked hours in the given month. (If contractor is on a fixed monthly rate, the number is not important and any number can be entered).
-   * Add the invoice which should be in the a .pdf format and named as follows: **[YYYYMMDD]-[name-surname]-[invoicemonth][invoice year].pdf.**
- > eg: **20220813-Martin-Koci-Jul2022.pdf** or **20220913-Martin-Koci-JunJulAug2022.pdf** for invoicing more months
 
 ## Processing Submitted Invoices
 
@@ -26,7 +21,7 @@ In the form:
 5. Manager emails the treasurer (TO'ing) and finance@openssl.org (CC'ing) advising that the CSV Batch file is ready to be processed.
 <br><br>
 
-* Additional expenses as approved can be included, subject to the expenses reimbursement process to ensure the expenses are itemized in the right way for tax (etc). These additional expenses should be submitted via a google form that is created for this purpose. This will automatically send a notification to the finance@openssl.org mailing list too.
+* Additional expenses as approved can be included, subject to the expenses reimbursement process to ensure the expenses are itemized in the right way for tax (etc). Email expense reimbursements and the supporting documentation directly to the finance@openssl.org mailing list.
 * Manager to batch payments (contractors expenses, invoices) as much as possible, to have a maximum of two potential payment dates a month, and communicate that to contractors.
 
 [Payment Run Schedule Table]: ../general-supplemental/Payment-Run-Schedule-Table.html
