@@ -4,7 +4,7 @@ The OpenSSL organization is purely remote without any office. The organization h
 
 ## Contractor Invoice Submission
 
-1. Contractors send their invoices directly to **finance@openssl.org** in the format and providing the information as detailed below.
+1. Contractors send their invoices directly to **finance@openssl.org** in a universally readable format, such as .pdf, and providing the information as detailed below.
 
 
 ## Processing Submitted Invoices
