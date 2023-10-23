@@ -14,12 +14,13 @@
 
 ## Current secondary platforms
 
-| Target       | &nbsp; | O/S         | &nbsp; | Architecture | &nbsp; | Toolchain       | &nbsp; | Nominated Committer(s) |
-|--------------|--------|-------------|--------|--------------|--------|-----------------|--------|------------------------|
-| vms-ia64     |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4       |        | \@levitte              |
-| vms-ia64-p32 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^1]  |        | \@levitte              |
-| vms-ia64-p64 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^2]  |        | \@levitte              |
-| vms-x86\_64  |        | OpenVMS 8.4 |        | x86\_64      |        | VSI C X7.4 [^3] |        | \@levitte              |
+| Target       | &nbsp; | O/S         | &nbsp; | Architecture | &nbsp; | Toolchain       | &nbsp; | Nominated Committer(s) | &nbsp; | Nominated Community Maintainer(s) |
+|--------------|--------|-------------|--------|--------------|--------|-----------------|--------|------------------------|--------|-----------------------------------|
+| vms-ia64     |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4       |        | \@levitte              |        |                                   |
+| vms-ia64-p32 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^1]  |        | \@levitte              |        |                                   |
+| vms-ia64-p64 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^2]  |        | \@levitte              |        |                                   |
+| vms-x86\_64  |        | OpenVMS 8.4 |        | x86\_64      |        | VSI C X7.4 [^3] |        | \@levitte              |        |                                   |
+| linux-aarch64 |       | Linux       |        | AArch64      |        | gcc             |        | \@tom-cosgrove-arm     |        | \@zorrorffm \@xkqian              |
 
 [^1]: [VMS] 32 bit pointer build
 [^2]: [VMS] 64 bit pointer build
@@ -56,7 +57,6 @@
 | solaris64-sparcv9-gcc   |        | Solaris            |        | Sparc V9 64 bit         |        | gcc             |        | \@orcl-jlana \@cernoseka                                |
 | solaris64-sparcv9-cc    |        | Solaris            |        | Sparc V9 64 bit         |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
 | linux64-s390x           |        | Linux              |        | s390x                   |        | gcc             |        | \@holger-dengler \@ifranzki                             |
-| linux-aarch64           |        | Linux              |        | aarch64                 |        | gcc             |        | \@zorrorffm \@xkqian \@tom-cosgrove-arm                 |
 | hurd-x86                |        | Hurd               |        | x86                     |        | gcc             |        | \@sthibaul                                              |
 | hurd-x86\_64            |        | Hurd               |        | x86\_64                 |        | gcc             |        | \@sthibaul                                              |
 | ios-xcrun               |        | iOS                |        | armv7                   |        | Apple clang 12  |        | \@fwh-dc                                                |
