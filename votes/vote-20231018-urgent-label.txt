@@ -1,0 +1,15 @@
+Topic: As per the recommendation of the Working Group, the OMC to accept the
+       change to the committer policy in PR#53 as of commit a762499
+Proposed by: Matt
+Issue link: https://github.com/openssl/general-policies/pull/53
+Public: yes
+Opened: 2023-10-18
+Closed: 2023-11-01
+Accepted:  yes  (for: 5, against: 0, abstained: 0, not voted: 1)
+
+  Anton      [+1]
+  Kurt       [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Richard    [  ]
+  Tim        [+1]
