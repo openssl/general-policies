@@ -1,5 +1,5 @@
 Topic: As per the recommendation of the Working Group, the OMC to accept the
-       change to the committer policy in PR#53 as of commit a762499
+       change to the contractors invoicing policy in PR#56 as of commit ae4fe13
 Proposed by: Matt
 Issue link: https://github.com/openssl/general-policies/pull/56
 Public: yes
