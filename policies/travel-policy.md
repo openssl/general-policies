@@ -407,5 +407,5 @@ year]/[date]-[name-surname]-reason directory, i.e. oss/financial/2022/20220922-m
 - Manager requests (TO'ing) the treasurer to make the payment along with the notice to finance@openssl.org (CC'ing).
 
 
-[Expenses Reimbursement Form]: (https://docs.google.com/spreadsheets/d/1fllhrbn9ERKas1PQVkMC2HfRSDy0LF_i3ray4YWDbbU/edit?usp=sharing)
-[Meal Reimbursement Table]: (#meal-reimbursement-table) 
+[Expenses Reimbursement Form]: https://docs.google.com/spreadsheets/d/1fllhrbn9ERKas1PQVkMC2HfRSDy0LF_i3ray4YWDbbU/edit?usp=sharing
+[Meal Reimbursement Table]: #meal-reimbursement-table
