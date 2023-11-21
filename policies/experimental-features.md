@@ -46,7 +46,7 @@ change) where this is not automatically implied via the use of build-time flags,
 `ifdefs`, etc. This document is authoritative for the purposes of what
 constitutes an experimental feature, subject to this policy.
 
-Merging a PR which creates a new experimental feature requires OTC discussion
-and approval. Non-trivial changes to an existing feature scope definition
-document may be subject to OTC review if needed via the standard OTC hold
-process.
+Merging a PR which creates a new experimental feature requires both OMC and OTC
+approval. The approvals can be obtained in either order. Non-trivial changes to
+an existing feature scope definition document may be subject to OTC review if
+needed via the standard OTC hold process.
