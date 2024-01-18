@@ -8,6 +8,7 @@
 | linux-generic32  |        | Debian 11           |        | x86          |        | gcc 10                               |
 | BSD-x86\_64      |        | FreeBSD 13.0        |        | x86\_64      |        | Clang 11                             |
 | VC-WIN64A        |        | Windows 10          |        | x86\_64      |        | Visual Studio 2019 Community Edition |
+| VC-WIN32         |        | Windows 10          |        | x86          |        | Visual Studio 2019 Community Edition |
 | mingw64          |        | Windows 10          |        | x86\_64      |        | MinGW (64 bit) and MSYS2             |
 | darwin64-x86\_64 |        | Mac OS Big Sur (11) |        | x86\_64      |        | Apple clang 13                       |
 | darwin64-arm64   |        | Mac OS Big Sur (11) |        | AArch64 (M1) |        | Apple clang 12                       |
@@ -136,7 +137,6 @@
 | aix64-cc               |        | AIX                               |        | ppc64               |        | ??                      |
 | BS2000-OSD             |        | BS2000/OSD                        |        | ??                  |        | ??                      |
 | VC-WIN64I              |        | Windows XP / Windows Server 2008? |        | ia64                |        | Visual C                |
-| VC-WIN32               |        | Windows 10                        |        | x86                 |        | Visual C                |
 | VC-CE                  |        | Windows CE                        |        | x86 / armv4?        |        | Visual C                |
 | VC-WIN64A-masm         |        | Windows 10                        |        | x86                 |        | Visual C with masm      |
 | mingw                  |        | Windows 10?                       |        | x86                 |        | gcc                     |
