@@ -1,0 +1,52 @@
+# Feature Branch Approval Policy
+
+The [Time-based Release Policy] defines a regular twice a year schedule for new
+OpenSSL versions. In the case of large features that cannot reasonably be
+implemented and reviewed within a single PR there is a risk that the feature
+will only be partially implemented and merged to master by the time that a
+feature freeze occurs for the next release.
+
+To avoid this problem feature branches can be used. A feature branch is simply
+a branch in the main git repository that can be used as a target branch for
+PRs related to a single new feature.
+
+A feature branch will be created based on the current state of master at the
+time of its creation. If a feature branch exists for a protracted period of time
+then it will need to be rebased on a regular basis. The process for doing so is
+deferred to other policies.
+
+The creation of a new feature branch implies some overhead for the project to
+manage that feature branch (such as for example periodic rebases, and to review
+PRs targetting it). Such a feature branch would typically only be created where
+it has been agreed that the feature is desirable; exists on the [Project Board];
+is of sufficiently high priority; and there are expected to be resources
+available to work on the feature development and to review it. For this reason
+the creation of new feature branches is controlled via an approval process.
+
+Submitting a request for a new feature branch should be done by creating an
+issue in the [openssl/project] repository. Such a request can be created by
+anyone without restriction. The request should specify:
+
+- The name of the feature branch requested
+- A link to an issue describing the requested feature that will be developed on
+  the branch
+- An estimate of the expected OpenSSL release that the feature will be included
+  in
+- Whether there are any known resources being made available to work on the
+  feature
+
+The approval of a new feature branch is ultimately performed by the OMC. The OMC
+may delegate the authority to make such approvals on its behalf to another body
+at the discretion of the OMC.
+
+Once approved by the OMC a feature branch may be created. All PRs relevant to
+that feature should target that branch and go through the normal code review
+process.
+
+Once the feature is complete and all relevant PRs have been merged to the branch,
+all commits can be pushed to the master branch directly without further review.
+The feature branch should then be deleted from the repository.
+
+[Time-based Release Policy]: https://github.com/openssl/general-policies/blob/master/policies/release-policy.md
+[Project Board]: https://github.com/orgs/openssl/projects/2/views/28
+[openssl/project]: https://github.com/openssl/project
