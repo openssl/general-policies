@@ -13,7 +13,7 @@ PRs related to a single new feature.
 A feature branch will be created based on the current state of master at the
 time of its creation. If a feature branch exists for a protracted period of time
 then it will need to be rebased on a regular basis. This process should be
-performed by a committer an an as-needed basis and can be done without further
+performed by a committer on an as-needed basis and can be done without further
 review.
 
 The creation of a new feature branch implies some overhead for the project to
