@@ -19,13 +19,13 @@ experimental features.
 
 Experimental features may have associated documentation. This documentation is
 not built by default unless the corresponding experimental feature is enabled.
-Man pages for experimental features shall feature a prominent warning that the
+Man pages for experimental features shall include a prominent warning that the
 man page relates to an experimental feature.
 
 New internal header files for experimental features can be placed in `internal/`
 as usual. New public header files for experimental features should be named
 `<openssl/experimental/XXX.h>`. Such headers shall only be copied at install
-time if the experimental feature in question is enabled, and should have their
+time if the experimental feature in question is enabled. They should have their
 contents guarded by `ifdef` wherever feasible.
 
 Experimental features exist to support the release engineering process where the
