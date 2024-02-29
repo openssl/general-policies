@@ -1,0 +1,13 @@
+Topic: Accept the feature branch approval policy as of d62052487a0656d80b4a5972625bedf06e20c94f
+Proposed by: Matt Caswell
+Issue link: https://github.com/openssl/general-policies/pull/62
+Public: yes
+Opened: 2024-02-20
+Closed: 2024-02-29
+Accepted:  yes  (for: 4, against: 0, abstained: 0, not voted: 1)
+
+  Anton      [+1]
+  Kurt       [  ]
+  Matt       [+1]
+  Richard    [+1]
+  Tim        [+1]
