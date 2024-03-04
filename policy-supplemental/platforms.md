@@ -2,16 +2,17 @@
 
 | Target           | &nbsp; | O/S                 | &nbsp; | Architecture | &nbsp; | Toolchain                            |
 |------------------|--------|---------------------|--------|--------------|--------|--------------------------------------|
-| linux-x86\_64    |        | Ubuntu Server 20.04 |        | x86\_64      |        | gcc 9                                |
-| linux-generic64  |        | Ubuntu Server 20.04 |        | x86\_64      |        | gcc 9                                |
+| linux-x86\_64    |        | Ubuntu Server 22.04 |        | x86\_64      |        | gcc 11                               |
+| linux-generic64  |        | Ubuntu Server 22.04 |        | x86\_64      |        | gcc 11                               |
 | linux-x86        |        | Debian 11           |        | x86          |        | gcc 10                               |
 | linux-generic32  |        | Debian 11           |        | x86          |        | gcc 10                               |
-| BSD-x86\_64      |        | FreeBSD 13.0        |        | x86\_64      |        | Clang 11                             |
-| VC-WIN64A        |        | Windows 10          |        | x86\_64      |        | Visual Studio 2019 Community Edition |
-| VC-WIN32         |        | Windows 10          |        | x86          |        | Visual Studio 2019 Community Edition |
-| mingw64          |        | Windows 10          |        | x86\_64      |        | MinGW (64 bit) and MSYS2             |
-| darwin64-x86\_64 |        | Mac OS Big Sur (11) |        | x86\_64      |        | Apple clang 13                       |
-| darwin64-arm64   |        | Mac OS Big Sur (11) |        | AArch64 (M1) |        | Apple clang 12                       |
+| linux-aarch64    |        | Ubuntu Server 22.04 |        | AArch64      |        | gcc                                  |
+| BSD-x86\_64      |        | FreeBSD 13.2        |        | x86\_64      |        | Clang 11                             |
+| VC-WIN64A        |        | Windows Server 2019 |        | x86\_64      |        | Visual Studio 2019 Community Edition |
+| VC-WIN32         |        | Windows Server 2019 |        | x86          |        | Visual Studio 2019 Community Edition |
+| mingw64          |        | Windows Server 2019 |        | x86\_64      |        | MinGW (64 bit) and MSYS2             |
+| darwin64-x86\_64 |        | Mac OS Ventura (13) |        | x86\_64      |        | Apple clang 14                       |
+| darwin64-arm64   |        | Mac OS Sonoma (14)  |        | AArch64 (M1) |        | Apple clang 15                       |
 
 ## Current secondary platforms
 
@@ -21,7 +22,6 @@
 | vms-ia64-p32 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^1]  |        | \@levitte              |        |                                   |
 | vms-ia64-p64 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^2]  |        | \@levitte              |        |                                   |
 | vms-x86\_64  |        | OpenVMS 8.4 |        | x86\_64      |        | VSI C X7.4 [^3] |        | \@levitte              |        |                                   |
-| linux-aarch64 |       | Linux       |        | AArch64      |        | gcc             |        | \@tom-cosgrove-arm     |        | \@zorrorffm \@xkqian              |
 
 [^1]: [VMS] 32 bit pointer build
 [^2]: [VMS] 64 bit pointer build
