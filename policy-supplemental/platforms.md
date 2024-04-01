@@ -67,7 +67,7 @@
 | iphoneos-cross          |        | iOS                |        | ?                       |        | Apple clang 12  |        | \@fwh-dc                                                |
 | ios-cross               |        | iOS                |        | armv7                   |        | Apple clang 12  |        | \@fwh-dc                                                |
 | ios64-cross             |        | iOS                |        | aarch64                 |        | Apple clang 12  |        | \@fwh-dc                                                |
-| linux-ppc64le           |        | Linux              |        | ppc64 little endian     |        | gcc             |        | \@rohanmclure \@erichte-ibm \@naynajain                 |
+| linux-ppc64le           |        | Linux              |        | ppc64 little endian     |        | gcc             |        | \@dannytsen \@erichte-ibm \@naynajain                   |
 
 ## Current unadopted platforms
 
