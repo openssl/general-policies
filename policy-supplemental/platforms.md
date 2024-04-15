@@ -68,6 +68,8 @@
 | ios-cross               |        | iOS                |        | armv7                   |        | Apple clang 12  |        | \@fwh-dc                                                |
 | ios64-cross             |        | iOS                |        | aarch64                 |        | Apple clang 12  |        | \@fwh-dc                                                |
 | linux-ppc64le           |        | Linux              |        | ppc64 little endian     |        | gcc             |        | \@dannytsen \@erichte-ibm \@naynajain                   |
+| linux64-riscv64         |        | Linux              |        | riscv64                 |        | gcc             |        | \@ZenithalHourlyRate                                    |
+| linux32-riscv32         |        | Linux              |        | riscv32                 |        | gcc             |        | \@ZenithalHourlyRate                                    |
 
 ## Current unadopted platforms
 
@@ -105,7 +107,6 @@
 | linux-mips32           |        | Linux                             |        | mips32 o32          |        | gcc                     |
 | linux-mips64           |        | Linux                             |        | mips64 n32          |        | gcc                     |
 | linux64-mips64         |        | Linux                             |        | mips64 64 bit       |        | gcc                     |
-| linux64-riscv64        |        | Linux                             |        | riscv64             |        | gcc                     |
 | linux-x86-clang        |        | Linux                             |        | x86                 |        | clang                   |
 | linux-x86\_64-clang    |        | Linux                             |        | x86\_64             |        | clang                   |
 | linux-x32              |        | Linux                             |        | x86\_64 x32         |        | gcc                     |
