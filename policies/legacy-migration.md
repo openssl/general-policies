@@ -21,10 +21,10 @@ applications that don't require them from inadvertently using them.
 1) Migration of an algorithm to the legacy provider must occur on a semantically
 versioned major release boundary.  Once a major release includes a given
 algorithm in a given provider, it must remain there for every minor release in
-that major stream
+that major stream.
 
 2) Prior to migration, the migration must be announced for at least 1
-semantically versioned patch level release (see announcement mechanism below)
+semantically versioned minor release (see announcement mechanism below).
 
 3) Coincidental to the announcement above, the algorithm in question may be made
 available in both the source provider and the legacy provider.
@@ -38,5 +38,5 @@ semantically versioned major release boundaries.
 Announcements of migrations from the default provider to the Legacy provider is
 made  via the DEPRECATIONS.md file in the source code root directory for
 OpenSSL.  This file will list the algorithm SN, NID, the version in  which the
-deprecation was announced, and the version in which the algorithm was removed
-from the source provider
+deprecation was announced, and the version in which the algorithm is to be
+removed from the default provider.
