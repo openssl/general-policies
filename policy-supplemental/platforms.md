@@ -17,23 +17,13 @@
 
 | Target       | &nbsp; | O/S         | &nbsp; | Architecture | &nbsp; | Toolchain       | &nbsp; | Nominated Committer(s) | &nbsp; | Nominated Community Maintainer(s) |
 |--------------|--------|-------------|--------|--------------|--------|-----------------|--------|------------------------|--------|-----------------------------------|
-| vms-ia64     |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4       |        | \@levitte              |        |                                   |
-| vms-ia64-p32 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^1]  |        | \@levitte              |        |                                   |
-| vms-ia64-p64 |        | OpenVMS 8.4 |        | ia64         |        | VSI C 7.4 [^2]  |        | \@levitte              |        |                                   |
-| vms-x86\_64  |        | OpenVMS 8.4 |        | x86\_64      |        | VSI C X7.4 [^3] |        | \@levitte              |        |                                   |
 | linux-aarch64 |       | Linux       |        | AArch64      |        | gcc             |        | \@tom-cosgrove-arm     |        | \@zorrorffm \@xkqian              |
-
-[^1]: [VMS] 32 bit pointer build
-[^2]: [VMS] 64 bit pointer build
-[^3]: [VMS] cross compile on ia64, currently build only
 
 ## Current community platforms
 
 | Target                  | &nbsp; | O/S                | &nbsp; | Architecture            | &nbsp; | Toolchain       | &nbsp; | Nominated Community Member(s)                           |
 |-------------------------|--------|--------------------|--------|-------------------------|--------|-----------------|--------|---------------------------------------------------------|
-| vms-alpha               |        | OpenVMS 8.4        |        | alpha                   |        | VSI C 7.4       |        | \@levitte                                               |
-| vms-alpha-p32           |        | OpenVMS 8.4        |        | alpha                   |        | VSI C 7.4 [^1]  |        | \@levitte                                               |
-| vms-alpha-p64           |        | OpenVMS 8.4        |        | alpha                   |        | VSI C 7.4 [^2]  |        | \@levitte                                               |
+| vms-x86\_64             |        | OpenVMS 9.2        |        | x86\_64                 |        | VSI C 7.5       |        | \@levitte                                               |
 | nonstop-nsx             |        | NonStop OSS L21.06 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nsx\_put        |        | NonStop OSS L21.06 |        | x86\_64 ilp32 PUT       |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nsx\_64         |        | NonStop OSS L21.06 |        | x86\_64 lp64            |        | c99             |        | \@rsbeckerca                                            |
@@ -75,6 +65,12 @@
 
 | Target                 | &nbsp; | O/S                               | &nbsp; | Architecture        | &nbsp; | Toolchain               |
 |------------------------|--------|-----------------------------------|--------|---------------------|--------|-------------------------|
+| vms-ia64               |        | OpenVMS 8.4                       |        | ia64                |        | VSI C 7.4               |
+| vms-ia64-p32           |        | OpenVMS 8.4                       |        | ia64                |        | VSI C 7.4 [^1]          |
+| vms-ia64-p64           |        | OpenVMS 8.4                       |        | ia64                |        | VSI C 7.4 [^2]          |
+| vms-alpha              |        | OpenVMS 8.4                       |        | alpha               |        | VSI C 7.4               |
+| vms-alpha-p32          |        | OpenVMS 8.4                       |        | alpha               |        | VSI C 7.4 [^1]          |
+| vms-alpha-p64          |        | OpenVMS 8.4                       |        | alpha               |        | VSI C 7.4 [^2]          |
 | vos-gcc                |        | VOS                               |        | ??                  |        | gcc                     |
 | solaris-x86-gcc        |        | Solaris                           |        | x86                 |        | gcc                     |
 | solaris-sparcv7-gcc    |        | Solaris                           |        | Sparc V7            |        | gcc                     |
@@ -182,3 +178,6 @@
 | VC-WIN64A-UWP          |        | Windows UWP                       |        | x86\_64             |        | Visual C                |
 | VC-ARM-UWP             |        | Windows UWP                       |        | arm                 |        | Visual C                |
 | VC-ARM64-UWP           |        | Windows UWP                       |        | aarch64             |        | Visual C                |
+
+[^1]: [VMS] 32 bit pointer build
+[^2]: [VMS] 64 bit pointer build
