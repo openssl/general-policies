@@ -130,8 +130,10 @@
 | aix-gcc                |        | AIX                               |        | ppc32               |        | gcc                     |
 | aix64-gcc              |        | AIX                               |        | ppc64               |        | gcc                     |
 | aix64-gcc-as           |        | AIX                               |        | ppc64               |        | gcc with as?            |
-| aix-cc                 |        | AIX                               |        | ppc32               |        | ??                      |
-| aix64-cc               |        | AIX                               |        | ppc64               |        | ??                      |
+| aix-cc                 |        | AIX                               |        | ppc32               |        | IBM xlc                      |
+| aix64-cc               |        | AIX                               |        | ppc64               |        | IBM xlc                      |
+| aix-clang               |        | AIX                               |        | ppc32               |        | IBM openxl clang                      |
+| aix64-clang               |        | AIX                               |        | ppc64               |        | IBM openxl clang                      |
 | BS2000-OSD             |        | BS2000/OSD                        |        | ??                  |        | ??                      |
 | VC-WIN64I              |        | Windows XP / Windows Server 2008? |        | ia64                |        | Visual C                |
 | VC-CE                  |        | Windows CE                        |        | x86 / armv4?        |        | Visual C                |
