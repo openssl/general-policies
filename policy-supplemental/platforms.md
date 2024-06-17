@@ -68,9 +68,6 @@
 | aix-clang               |        | AIX                |        | ppc32                   |        | IBM openxl clang|        | \@sanumesh                                              |
 | aix64-clang             |        | AIX                |        | ppc64                   |        | IBM openxl clang|        | \@sanumesh                                              |
 
-
-
-
 ## Current unadopted platforms
 
 | Target                 | &nbsp; | O/S                               | &nbsp; | Architecture        | &nbsp; | Toolchain               |
