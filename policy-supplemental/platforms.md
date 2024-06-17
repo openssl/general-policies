@@ -60,6 +60,16 @@
 | linux-ppc64le           |        | Linux              |        | ppc64 little endian     |        | gcc             |        | \@dannytsen \@erichte-ibm \@naynajain                   |
 | linux64-riscv64         |        | Linux              |        | riscv64                 |        | gcc             |        | \@ZenithalHourlyRate                                    |
 | linux32-riscv32         |        | Linux              |        | riscv32                 |        | gcc             |        | \@ZenithalHourlyRate                                    |
+| aix-gcc                 |        | AIX                |        | ppc32                   |        | gcc             |        | \@sanumesh                                              |
+| aix64-gcc               |        | AIX                |        | ppc64                   |        | gcc             |        | \@sanumesh                                              |
+| aix64-gcc-as            |        | AIX                |        | ppc64                   |        | gcc as directive|        | \@sanumesh                                              |
+| aix-cc                  |        | AIX                |        | ppc32                   |        | IBM xlc         |        | \@sanumesh                                              |
+| aix64-cc                |        | AIX                |        | ppc64                   |        | IBM xlc         |        | \@sanumesh                                              |
+| aix-clang               |        | AIX                |        | ppc32                   |        | IBM openxl clang|        | \@sanumesh                                              |
+| aix64-clang             |        | AIX                |        | ppc64                   |        | IBM openxl clang|        | \@sanumesh                                              |
+
+
+
 
 ## Current unadopted platforms
 
@@ -127,13 +137,6 @@
 | unixware-7-gcc         |        | unixware 7                        |        | x86                 |        | gcc                     |
 | sco5-cc                |        | Open Server 5?                    |        | x86                 |        | ??                      |
 | sco5-gcc               |        | Open Server 5?                    |        | x86                 |        | gcc                     |
-| aix-gcc                |        | AIX                               |        | ppc32               |        | gcc                     |
-| aix64-gcc              |        | AIX                               |        | ppc64               |        | gcc                     |
-| aix64-gcc-as           |        | AIX                               |        | ppc64               |        | gcc with as?            |
-| aix-cc                 |        | AIX                               |        | ppc32               |        | IBM xlc                      |
-| aix64-cc               |        | AIX                               |        | ppc64               |        | IBM xlc                      |
-| aix-clang               |        | AIX                               |        | ppc32               |        | IBM openxl clang                      |
-| aix64-clang               |        | AIX                               |        | ppc64               |        | IBM openxl clang                      |
 | BS2000-OSD             |        | BS2000/OSD                        |        | ??                  |        | ??                      |
 | VC-WIN64I              |        | Windows XP / Windows Server 2008? |        | ia64                |        | Visual C                |
 | VC-CE                  |        | Windows CE                        |        | x86 / armv4?        |        | Visual C                |
