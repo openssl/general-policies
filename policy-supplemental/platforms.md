@@ -180,6 +180,8 @@
 | VC-WIN64A-UWP          |        | Windows UWP                       |        | x86\_64             |        | Visual C                |
 | VC-ARM-UWP             |        | Windows UWP                       |        | arm                 |        | Visual C                |
 | VC-ARM64-UWP           |        | Windows UWP                       |        | aarch64             |        | Visual C                |
+| aix-cc-solib           |        | AIX                               |        | ppc32               |        | IBM xlc                 |
+| aix64-cc-solib         |        | AIX                               |        | ppc64               |        | IBM xlc                 |
 
 [^1]: [VMS] 32 bit pointer build
 [^2]: [VMS] 64 bit pointer build
