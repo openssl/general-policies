@@ -36,9 +36,8 @@ may also be revoked by the OMC.
 
 ## Approvals and code reviews
 
-All submissions must be reviewed and approved by at least two committers,
-one of whom must also be an OTC member.  Neither of the reviewers can
-be the author of the submission.
+All submissions must be reviewed and approved by at least two committers.
+Neither of the reviewers can be the author of the submission.
 
 The sole exception to this is during the release process where the
 author's review does count towards the two needed for the automated
