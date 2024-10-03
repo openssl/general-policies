@@ -38,8 +38,9 @@ major release boundaries.
 
 Announcements of migrations from a source provider to the Legacy provider is
 made via the DEPRECATIONS.md file in the source code root directory for
-OpenSSL.  This file will list the algorithm SN, NID, the version in  which the
-deprecation was announced, and the version in which the algorithm is to be
-removed from the source provider.  Note that deprecations may also be announced
-in the release notes.
+OpenSSL.  This file will list all the identities of the algorithm (names,
+possible OIDs, possible NIDs), the version in  which the deprecation was
+announced, and the version in which the algorithm is to be removed from the
+source provider.  Note that deprecations may also be announced in the release
+notes.
 
