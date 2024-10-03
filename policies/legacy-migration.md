@@ -30,6 +30,7 @@ semantically versioned minor release (see announcement mechanism below).
 available in both the source provider and the legacy provider.
 
 ## Promotion of algorithms in the legacy provider to the default provider
+
 Should the need arise, legacy provider algorithms may be promoted to the default
 provider at any time.  Removal from the Legacy provider should occur only on
 semantically versioned major release boundaries.
