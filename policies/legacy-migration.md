@@ -36,6 +36,7 @@ provider at any time.  Removal from the Legacy provider should occur only on
 semantically versioned major release boundaries.
 
 ## Migration announcement mechanism
+
 Announcements of migrations from the default provider to the Legacy provider is
 made  via the DEPRECATIONS.md file in the source code root directory for
 OpenSSL.  This file will list the algorithm SN, NID, the version in  which the
