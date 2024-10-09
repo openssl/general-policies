@@ -148,11 +148,11 @@ section, the following usage guidelines apply:
 
 1. You may not alter the color, font, proportions, or any other aspect of
    OpenSSL’s logos and design marks.
-   ![](OpenSSL_Library.png)
-   ![](OpenSSL_Projects.png)
-   ![](OpenSSL_Mission.png)
-   ![](OpenSSL_Foundation.png)
-   ![](OpenSSL_Corporation.png)
+   ![](OpenSSL_Library.jpg)
+   ![](OpenSSL_Projects.jpg)
+   ![](OpenSSL_Mission.jpg)
+   ![](OpenSSL_Foundation.jpg)
+   ![](OpenSSL_Corporation.jpg)
 2. Do not use the OpenSSL logos as part of your company logo or product logo or
    branding itself.
 3. Logos can be used on your own website solely as a hyperlink to the OpenSSL
