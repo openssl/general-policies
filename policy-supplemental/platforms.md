@@ -67,6 +67,7 @@
 | aix64-cc                |        | AIX                |        | ppc64                   |        | IBM xlc         |        | \@sanumesh                                              |
 | aix-clang               |        | AIX                |        | ppc32                   |        | IBM openxl clang|        | \@sanumesh                                              |
 | aix64-clang             |        | AIX                |        | ppc64                   |        | IBM openxl clang|        | \@sanumesh                                              |
+| BC-64                   |        | Windows 10/11      |        | x86\_64                 |        | Embarcaderoclang|        | \@GermanAizek                                           |
 
 ## Current unadopted platforms
 
