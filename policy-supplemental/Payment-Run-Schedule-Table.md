@@ -1,5 +1,4 @@
-##   Payment Run Schedule Table
-
+# Payment Run Schedule Table
 
 | Submissions Due by	| Payment Run Date	| Note |
 | ------------------	| ----------------	| ---------------------- |
