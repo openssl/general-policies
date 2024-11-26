@@ -111,4 +111,3 @@ arrangements.
 
 [Sensitive Information Table]: ../policy-supplemental/AccessSensitiveInfoPolicy_SIT.md
 [Sensitive Information Access Table]: ../policy-supplemental/AccessSensitiveInfoPolicy_SIAT.md
-

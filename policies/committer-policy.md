@@ -1,4 +1,3 @@
-
 # Policy for OpenSSL Committers
 
 ## Who is a committer?
