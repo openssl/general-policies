@@ -1,14 +1,11 @@
-Security Policy
-===============
+# Security Policy
 
-Reporting security issues
--------------------------
+## Reporting security issues
 
 If you wish to report a possible security issue in OpenSSL please
 [notify us](https://www.openssl.org/community/#securityreports).
 
-Issue triage
-------------
+## Issue triage
 
 Notifications are received by the OMC and OTC. We engage resources within
 OpenSSL to start the investigation and prioritisation. We may work in
@@ -17,8 +14,7 @@ organisations and our [employers](https://www.openssl.org/community/thanks.html)
 where we believe this can help with the issue investigation, resolution, or
 testing.
 
-Threat Model
-------------
+## Threat Model
 
 Certain threats are currently considered outside of the scope of the
 OpenSSL threat model. Accordingly, we do not consider OpenSSL secure
@@ -41,8 +37,7 @@ Prior to the threat model being included in this policy, CVEs were sometimes
 issued for these classes of attacks. The existence of a previous CVE does
 not override this policy going forward.
 
-Issue severity
---------------
+## Issue severity
 
 We will determine the risk of each issue, taking into account our experience
 dealing with past issues, versions affected, common defaults, and use cases.
@@ -76,8 +71,7 @@ We use the following severity categories:
    the issue CVE in the changelog and commit message, but they may not
    trigger new releases.
 
-Prenotification policy
-----------------------
+## Prenotification policy
 
  - Where we are planning an update that fixes security issues we will notify
    the [openssl-announce list](https://mta.openssl.org/mailman/listinfo/openssl-announce)
@@ -103,8 +97,7 @@ Prenotification policy
 Note: researchers or intermediaries who notify us of issues may have their
 own prenotification policy in addition to ours.
 
-Principles
-----------
+## Principles
 
 The policy above is guided by our security principles:
 

@@ -1,8 +1,6 @@
-OpenSSL Travel Policy
-=====================
+# OpenSSL Travel Policy
 
-Purpose
--------
+## Purpose
 
 When travelling for OpenSSL business related purposes, it is OpenSSL's
 intention to cover reasonable travel expenses.
@@ -12,8 +10,7 @@ related expenses OpenSSL will reimburse, the level of reimbursement, the
 process for authorising travel and how to claim a reimbursement for
 approved travel expenses.
 
-Scope
------
+## Scope
 
 The Policy is applicable to all Committee Members, all persons under
 contract at OpenSSL, as well as other persons as designated by the OMC from
@@ -23,8 +20,7 @@ The Policy covers travel for the purposes of OpenSSL business only --
 whether to events, meetings or training and excludes all non-business or
 leisure travel.
 
-Definitions
------------
+## Definitions
 
 -   **Travel** is where; you leave your usual state and/or country or you
     have to travel 1 or more hours away from the location you usually
@@ -54,8 +50,7 @@ Definitions
 -   **Partial Day**: is 1 to 12 hour period that a Traveller is away from
     their usual place of residence, this is considered a day trip.
 
-Principles
-----------
+## Principles
 
 ### Travel Authorisation
 
@@ -263,8 +258,7 @@ In addition, OpenSSL will reimburse the cost of:
     while traveling for OpenSSL business purposes.
 -   Conference &/or attendance fees
 
-Personal Travel
----------------
+## Personal Travel
 
 OpenSSL will not be financially responsible for any personal expenses
 and travel arrangements.
@@ -277,8 +271,7 @@ and travel arrangements.
     not be reimbursed, (excluding any pre/post days included in The
     Policy)
 
-Reimbursements
---------------
+## Reimbursements
 
 Except where noted below, the traveller must keep all receipts, tickets
 etc related to the reimbursement and submit these with the [Expenses

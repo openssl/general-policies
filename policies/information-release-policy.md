@@ -1,4 +1,3 @@
-
 # Information Release Policy
 
 ## Purpose

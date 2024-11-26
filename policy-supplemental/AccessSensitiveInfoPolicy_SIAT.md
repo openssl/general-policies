@@ -1,6 +1,5 @@
-| Sensitive Information Access Table 	|  	|
-|---	|---	|
-|  	|  	|
+# Sensitive Information Access Table
+
 | **Role/Individual** 	| **Accessible Sensitive Information** 	|
 | OMC Member 	| All sensitive information (excluding OTC private votes and fipslab organisation repositories in GHE) 	|
 | OTC Member 	| Security Vulnerabilities, Security Reports 	|

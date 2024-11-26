@@ -1,5 +1,4 @@
-Sensitive Information Table
-======
+# Sensitive Information Table
 
 _Examples of the types of information considered sensitive include (but are not limited to):_
 * Personal bank account details;
