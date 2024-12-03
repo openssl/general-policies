@@ -4,7 +4,7 @@ Platforms are classified as "primary", "secondary", "community"
 and "unadopted". Support for a new platform should only be added if it
 is being adopted as a primary, secondary or community platform.
 
-[Current platforms](../policy-supplemental/platforms.html)
+[Current platforms](/policies/general-supplemental/platforms/)
 
 ## Primary
 

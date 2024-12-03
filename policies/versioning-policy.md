@@ -122,12 +122,12 @@ was different and it is detailed here for historic purposes.
   transition to opaque internal structures that occurred with OpenSSL
   release 1.1.0.
 
-[ABI]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#abi
-[API]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#api
-[LTS]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#lts
-[OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc
-[major]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#major-release
-[minor]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#minor-release
-[patch]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#patch-release
-[public interfaces]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#public-interface
-[stable release update policy]: https://github.com/openssl/technical-policies/blob/master/policies/stable-release-updates.md
+[ABI]: /policies/general/glossary/#abi
+[API]: /policies/general/glossary/#api
+[LTS]: /policies/general/glossary/#lts
+[OMC]: /policies/general/glossary/#omc
+[major]: /policies/general/glossary/#major-release
+[minor]: /policies/general/glossary/#minor-release
+[patch]: /policies/general/glossary/#patch-release
+[public interfaces]: /policies/general/glossary/#public-interface
+[stable release update policy]: /policies/technical/stable-release-updates/
