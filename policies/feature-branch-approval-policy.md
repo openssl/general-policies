@@ -50,6 +50,6 @@ feature branch. However this PR review stage enables a final check to confirm
 the complete feature is sane. Once this PR is merged, the feature branch should
 then be deleted from the repository.
 
-[Time-based Release Policy]: https://github.com/openssl/general-policies/blob/master/policies/release-policy.md
+[Time-based Release Policy]: /policies/general/release-policy/
 [Project Board]: https://github.com/orgs/openssl/projects/2/views/28
 [openssl/project]: https://github.com/openssl/project

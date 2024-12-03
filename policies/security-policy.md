@@ -3,14 +3,14 @@
 ## Reporting security issues
 
 If you wish to report a possible security issue in OpenSSL please
-[notify us](https://www.openssl.org/community/#securityreports).
+[notify us](/community/#reporting-security-bugssecurityreports).
 
 ## Issue triage
 
 Notifications are received by the OMC and OTC. We engage resources within
 OpenSSL to start the investigation and prioritisation. We may work in
 private with individuals who are not on the OMC or OTC as well as other
-organisations and our [employers](https://www.openssl.org/community/thanks.html)
+organisations and our [employers](/community/thanks/)
 where we believe this can help with the issue investigation, resolution, or
 testing.
 
@@ -74,7 +74,7 @@ We use the following severity categories:
 ## Prenotification policy
 
  - Where we are planning an update that fixes security issues we will notify
-   the [openssl-announce list](https://mta.openssl.org/mailman/listinfo/openssl-announce)
+   the [openssl-announce list](https://groups.google.com/a/openssl.org/g/openssl-announce/)
    and update the OpenSSL website to give our scheduled update release date
    and time and the severity of issues being fixed by the update. No further
    information about the issues will be given.

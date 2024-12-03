@@ -174,24 +174,23 @@ A stable release is one where the permitted changes are minimised.
 Refer to the [stable release updates policy] for specific details.
 
 
-[alpha release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#alpha-release
-[beta release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#beta-release
-[committers]: https://github.com/openssl/general-policies/blob/master/policies/committer-policy.md
-[Long term support]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#long-term-stable-release
-[major release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#major-release
-[minor release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#minor-release
-[patch release]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md#patch-release
-[versioning policy]: https://github.com/openssl/general-policies/blob/master/policies/versioning-policy.md
-[stable release updates policy]: https://github.com/openssl/technical-policies/blob/master/policies/stable-release-updates.md
-[testing policy]: https://github.com/openssl/technical-policies/blob/master/policies/testing.md
-[documentation policy]: https://github.com/openssl/technical-policies/blob/master/policies/documentation-policy.md#language
-[API compatibility policy]: https://github.com/openssl/technical-policies/blob/master/policies/api-compat.md
+[alpha release]: /policies/general/versioning-policy/#alpha-release
+[beta release]: /policies/general/versioning-policy/#beta-release
+[committers]: /policies/general/committer-policy/
+[Long term support]: /policies/general/versioning-policy/#long-term-stable-release
+[major release]: /policies/general/versioning-policy/#major-release
+[minor release]: /policies/general/versioning-policy/#minor-release
+[patch release]: /policies/general/versioning-policy/#patch-release
+[versioning policy]: /policies/general/versioning-policy/
+[stable release updates policy]: /policies/technical/stable-release-updates/
+[testing policy]: /policies/technical/testing/
+[documentation policy]: /policies/technical/documentation-policy/#language
+[API compatibility policy]: /policies/technical/api-compat/
 [perlasm README]: https://github.com/openssl/openssl/blob/master/crypto/perlasm/README.md
-[ICLA]: https://www.openssl.org/policies/openssl_icla.pdf
-[CCLA]: https://www.openssl.org/policies/openssl_ccla.pdf
-[Contributor Agreements]: https://www.openssl.org/policies/cla.html
+[ICLA]: /policies/openssl_icla.pdf
+[CCLA]: /policies/openssl_ccla.pdf
+[Contributor Agreements]: /policies/cla/
 [OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
 [CHANGES.md]: https://github.com/openssl/openssl/blob/master/CHANGES.md
 [NEWS.md]: https://github.com/openssl/openssl/blob/master/NEWS.md
-[OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
 [The Linux Documentation Project]: https://tldp.org/

@@ -109,5 +109,5 @@ information resources is found in violation of The Policy they may be subject
 to disciplinary action, up to and including termination of any contractual 
 arrangements.
 
-[Sensitive Information Table]: ../policy-supplemental/AccessSensitiveInfoPolicy_SIT.md
-[Sensitive Information Access Table]: ../policy-supplemental/AccessSensitiveInfoPolicy_SIAT.md
+[Sensitive Information Table]: /policies/general-supplemental/accesssensitiveinfopolicy_sit/
+[Sensitive Information Access Table]: /policies/general-supplemental/accesssensitiveinfopolicy_siat/

@@ -132,4 +132,4 @@ Details to be recorded in this system are:
 * Reason for approving sponsorship.
 
 [GitHub Sponsors]: https://github.com/sponsors/openssl
-[Sponsorship webpage]: https://www.openssl.org/support/donations.html
+[Sponsorship webpage]: https://openssl-foundation.org/sponsorship/
