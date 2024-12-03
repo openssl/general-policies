@@ -121,8 +121,8 @@ See [Release Requirements Policy] for details on each type of release.
   fixing security issues, although other bugs may be addressed at the discretion
   of OpenSSL engineering.
 
-[Stable Release Updates Policy]: https://www.openssl.org/policies/technical/stable-release-updates.html
-[Release Requirements Policy]: https://www.openssl.org/policies/technical/release-requirements.html
+[Stable Release Updates Policy]: /policies/technical/stable-release-updates/
+[Release Requirements Policy]: /policies/technical/release-requirements/
 [Making an OpenSSL Release]: https://github.com/openssl/tools/blob/master/HOWTO-make-a-release.md
 
 [^1]: Feature Acceptance Criteria - 🚧 The document is a work in progress.

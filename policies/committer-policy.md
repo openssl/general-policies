@@ -108,11 +108,11 @@ spelling mistake).  All reviewers and the submission author need to
 agree that a submission is trivial and the _cla: trivial_ label should
 be applied to indicate this.
 
-[Contributor Agreements]: https://www.openssl.org/policies/cla.html
+[Contributor Agreements]: /policies/cla/
 [OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
-[OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc
-[OTC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#otc
-[CLAs]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#cla
-[NEWS]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#news
-[CHANGES]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#changes
-[OpenSSL Bylaws]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#bylaws
+[OMC]: /policies/general/glossary/#omc
+[OTC]: /policies/general/glossary/#otc
+[CLAs]: /policies/general/glossary/#cla
+[NEWS]: /policies/general/glossary/#news
+[CHANGES]: /policies/general/glossary/#changes
+[OpenSSL Bylaws]: /policies/general/glossary/#bylaws

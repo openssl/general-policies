@@ -204,4 +204,4 @@ any legally available options:
 For any queries with respect to The Policy, please send an email to
 [legal@openssl.org](mailto:legal@openssl.org).
 
-[Trademark Register]: (.../general-policies/policy-supplemental/TrademarkRegister.md)
+[Trademark Register]: /policies/general-supplemental/trademarkregister/

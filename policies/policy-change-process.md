@@ -78,4 +78,4 @@ should be labelled with the `minor edit` label.
 Approved submissions shall only be applied after a 24-hour delay from the
 approval.
 
-[OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc
+[OMC]: /policies/general/glossary/#omc

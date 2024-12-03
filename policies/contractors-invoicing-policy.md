@@ -24,5 +24,5 @@ The OpenSSL organization is purely remote without any office. The organization h
 * Additional expenses as approved can be included, subject to the expenses reimbursement process to ensure the expenses are itemized in the right way for tax (etc). Email expense reimbursements and the supporting documentation directly to the finance@openssl.org mailing list.
 * Manager to batch payments (contractors expenses, invoices) as much as possible, to have a maximum of two potential payment dates a month, and communicate that to contractors.
 
-[Payment Run Schedule Table]: ../general-supplemental/Payment-Run-Schedule-Table.html
+[Payment Run Schedule Table]: /policies/general-supplemental/payment-run-schedule-table/
 [Online Form]: https://docs.google.com/forms/d/e/1FAIpQLSeArUbveC_v_k39khbBc_PgE_qLRk3kBAd_j-0tc-knx-0bYA/viewform
