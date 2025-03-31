@@ -26,19 +26,15 @@
 | Target                  | &nbsp; | O/S                | &nbsp; | Architecture            | &nbsp; | Toolchain       | &nbsp; | Nominated Community Member(s)                           |
 |-------------------------|--------|--------------------|--------|-------------------------|--------|-----------------|--------|---------------------------------------------------------|
 | vms-x86\_64             |        | OpenVMS 9.2        |        | x86\_64                 |        | VSI C 7.5       |        | \@levitte                                               |
-| nonstop-nsx             |        | NonStop OSS L21.06 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nsx\_put        |        | NonStop OSS L21.06 |        | x86\_64 ilp32 PUT       |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nsx\_64         |        | NonStop OSS L21.06 |        | x86\_64 lp64            |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nsx\_64\_put    |        | NonStop OSS L21.06 |        | x86\_64 lp64 PUT        |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nsx\_spt        |        | NonStop OSS L21.06 |        | x86\_64 ilp32 SPT       |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nsx\_spt\_floss |        | NonStop OSS L21.06 |        | x86\_64 ilp32 SPT FLOSS |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nsv             |        | NonStop OSS L21.06 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx             |        | NonStop OSS L23.08 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_put        |        | NonStop OSS L23.08 |        | x86\_64 ilp32 PUT       |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_64         |        | NonStop OSS L23.08 |        | x86\_64 lp64            |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsx\_64\_put    |        | NonStop OSS L23.08 |        | x86\_64 lp64 PUT        |        | c99             |        | \@rsbeckerca                                            |
+| nonstop-nsv             |        | NonStop OSS L23.08 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nse             |        | NonStop OSS J06.22 |        | ia64 ilp32              |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nse\_put        |        | NonStop OSS J06.22 |        | ia64 ilp32 PUT          |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nse\_64         |        | NonStop OSS J06.22 |        | ia64 lp64               |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nse\_64\_put    |        | NonStop OSS J06.22 |        | ia64 lp64 PUT           |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nse\_spt        |        | NonStop OSS J06.22 |        | ia64 ipl32 SPT          |        | c99             |        | \@rsbeckerca                                            |
-| nonstop-nse\_spt\_floss |        | NonStop OSS J06.22 |        | ia64 ipl32 SPT FLOSS    |        | c99             |        | \@rsbeckerca                                            |
 | linux64-loongarch64     |        | Linux              |        | loongarch64             |        | gcc             |        | \@shipujin                                              |
 | BSD-armv4               |        | FreeBSD            |        | armv4                   |        | LLVM            |        | \@pkubaj                                                |
 | BSD-ppc                 |        | FreeBSD            |        | ppc                     |        | LLVM            |        | \@pkubaj                                                |
@@ -170,10 +166,6 @@
 | DJGPP                  |        | DOS?                              |        | x86?                |        | djgpp                   |
 | haiku-x86              |        | Haiku                             |        | x86                 |        | gcc?                    |
 | haiku-x86\_64          |        | Haiku                             |        | x86\_64             |        | gcc?                    |
-| nonstop-nsx\_g         |        | NonStop Guardian                  |        | x86\_64 ilp32       |        |                         |
-| nonstop-nsx\_g\_tandem |        | NonStop Guardian                  |        | x86\_64 ilp32       |        |                         |
-| nonstop-nse\_g         |        | NonStop Guardian                  |        | ia64 ipl32          |        |                         |
-| nonstop-nse\_g\_tandem |        | NonStop Guardian                  |        | ia64 ipl32          |        |                         |
 | OS390-Unix             |        | zOS                               |        | s390                |        |                         |
 | VC-WIN32-ONECORE       |        | Windows OneCore                   |        | x86                 |        | Visual C                |
 | VC-WIN64A-ONECORE      |        | Windows OneCore                   |        | x86\_64             |        | Visual C                |
