@@ -25,7 +25,6 @@
 
 | Target                  | &nbsp; | O/S                | &nbsp; | Architecture            | &nbsp; | Toolchain       | &nbsp; | Nominated Community Member(s)                           |
 |-------------------------|--------|--------------------|--------|-------------------------|--------|-----------------|--------|---------------------------------------------------------|
-| vms-x86\_64             |        | OpenVMS 9.2        |        | x86\_64                 |        | VSI C 7.5       |        | \@levitte                                               |
 | nonstop-nsx             |        | NonStop OSS L21.06 |        | x86\_64 ilp32           |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nsx\_put        |        | NonStop OSS L21.06 |        | x86\_64 ilp32 PUT       |        | c99             |        | \@rsbeckerca                                            |
 | nonstop-nsx\_64         |        | NonStop OSS L21.06 |        | x86\_64 lp64            |        | c99             |        | \@rsbeckerca                                            |
@@ -75,6 +74,7 @@
 
 | Target                 | &nbsp; | O/S                               | &nbsp; | Architecture        | &nbsp; | Toolchain               |
 |------------------------|--------|-----------------------------------|--------|---------------------|--------|-------------------------|
+| vms-x86\_64            |        | OpenVMS 9.2                       |        | x86\_64             |        | VSI C 7.5               |
 | vms-ia64               |        | OpenVMS 8.4                       |        | ia64                |        | VSI C 7.4               |
 | vms-ia64-p32           |        | OpenVMS 8.4                       |        | ia64                |        | VSI C 7.4 [^1]          |
 | vms-ia64-p64           |        | OpenVMS 8.4                       |        | ia64                |        | VSI C 7.4 [^2]          |
