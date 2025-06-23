@@ -58,6 +58,10 @@ delay from the approval.  An exception to the delay exists for build and
 test breakage fix approvals which should be flagged with the _severity:
 urgent_ label.
 
+Given that feature branches are merged to the mainline branch via a separate PR,
+PR submissions to the feature branch which are otherwise approved are exempted
+from the 24-hour delay above.
+
 The use of the _severity: urgent_ label should be limited to contexts where the
 breakage of the CI builds and tests (including buildbot) happened within the
 last 72 hours and the change is straightforward.
