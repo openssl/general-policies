@@ -10,7 +10,7 @@ is being adopted as a primary, secondary or community platform.
 
 *Definition:* A platform that is regularly tested through project CI
 on a project owned and managed system.
-    
+
 New Pull Requests (PRs) should not be merged unless the primary
 platforms are showing as "green" in CI. If the CI breaks for a branch
 (such as for a stable version or master) then it should be fixed as a
@@ -37,7 +37,7 @@ branch.
 community have volunteered to support. May or may not be in project
 CI. Members of the community providing support do not have to be
 committers.
-    
+
 Where a community platform is in project CI then new Pull Requests
 (PRs) should avoid introducing new breaks to CI on such platforms
 where possible but may still be merged where a resolution is not
@@ -55,7 +55,7 @@ provide fixes then the platform may be moved to "unadopted".
 ## Unadopted
 
 *Definition:* Platforms that no one has volunteered to support.
-    
+
 Support may still be provided for such platforms where possible
 without access to the platform itself. Platform specific issues may be
 left unresolved where it is not feasible to find a suitable fix.

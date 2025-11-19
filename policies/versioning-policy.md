@@ -41,8 +41,8 @@ In order to maintain stability and limit rework across major versions:
   or functions are added in a feature release of the extant LTS release
   and all supported intermediate successor releases.
 
-Exceptions to these rules require a vote by the [OMC].  See also the
-[stable release update policy].
+Exceptions to these rules can be granted by the OpenSSL Foundation and
+the OpenSSL Corporation directors.  See also the [stable release update policy].
 
 ## Minor release
 
@@ -54,7 +54,8 @@ the API and ABI will be preserved.
 > run with OpenSSL 3.1.0 but might not be able to take advantage of new
 > features without modification.
 
-Exceptions to these rules require a vote by the OMC.
+Exceptions to these rules can be granted by the OpenSSL Foundation and
+the OpenSSL Corporation directors.
 
 ## Patch release
 
@@ -65,25 +66,22 @@ Both the API and ABI will remain compatible across patch releases.
 > For example, a program linked with OpenSSL release 3.0.0 can
 > run with OpenSSL 3.0.1 without changes.
 
-Exceptions to these rules require a vote by the OMC.
+Exceptions to these rules can be granted by the OpenSSL Foundation and
+the OpenSSL Corporation directors.
 
 ## Long term stable release
 
 A release can be designated as a long term stable (LTS) release.
 LTS releases will be supported for at least five years and the project
-will specify an LTS release at least every four years.
+will specify an LTS release every second year.
 
 ## Supported releases
 
-Non-LTS releases will be supported for at least two years.
-
-During the final year of support for both LTS and non-LTS releases,
-we do not commit to anything other than security fixes.  Before that,
-bug and security fixes will be applied as appropriate.
+Non-LTS releases will be supported for at least thirteen months.
 
 The addition of new platforms to both LTS and non-LTS releases is
 acceptable so long as the required changes consist solely of additions
-to configuration.
+to the build configuration.
 
 ## Pre-release versions
 
@@ -125,7 +123,6 @@ was different and it is detailed here for historic purposes.
 [ABI]: /policies/general/glossary/#abi
 [API]: /policies/general/glossary/#api
 [LTS]: /policies/general/glossary/#lts
-[OMC]: /policies/general/glossary/#omc
 [major]: /policies/general/glossary/#major-release
 [minor]: /policies/general/glossary/#minor-release
 [patch]: /policies/general/glossary/#patch-release

@@ -8,8 +8,8 @@ as well as those of other contributors.
 
 ## How to become a committer?
 
-Commit access is granted by a vote of the [OMC] typically on the
-recommendation of the [OTC] (see the [OpenSSL Bylaws]).
+Commit access is granted by the OpenSSL Foundation or
+the OpenSSL Corporation directors.
 
 We welcome contributors who become domain experts in some part of
 the library (for example, low-level crypto) as well as generalists
@@ -31,7 +31,8 @@ to the OpenSSL Bylaws for details.
 
 In the unlikely and unfortunate event that your actions conflict with
 the project objectives or are otherwise disruptive, committer status
-may also be revoked by the OMC.
+may also be revoked by the OpenSSL Foundation and the OpenSSL Corporation
+directors.
 
 ## Approvals and code reviews
 
@@ -45,13 +46,6 @@ release process and [NEWS] and [CHANGES] file updates.
 In the case where two committers make a joint submission, they can review
 each other's code but not their own.  A third reviewer will be required.
 
-An OMC member may apply a _hold: needs OMC decision_ label to a submission.
-An OTC member may apply a _hold: needs OTC decision_ to a submission.
-A _hold: needs OMC decision_ label may be removed by the member that put
-in place the hold or by a decision of the OMC.
-A _hold: needs OTC decision_ label may be removed by the member that put
-in place the hold or by a decision of the OTC.
-
 Approved submissions (outside of the automated release process and
 NEWS and CHANGES file updates) shall only be applied after a 24-hour
 delay from the approval.  An exception to the delay exists for build and
@@ -62,6 +56,13 @@ The use of the _severity: urgent_ label should be limited to contexts where the
 breakage of the CI builds and tests (including buildbot) happened within the
 last 72 hours and the change is straightforward.
 
+The primary purpose of the 24-hour delay after approvals is to provide
+an opportunity to other committers or other people to raise objections
+against the approved change. We try to seek consensus on changes but
+in case full consensus cannot be reached the OpenSSL Foundation and
+the OpenSSL Corporation directors will make a decision on how to handle
+the contentious matter.
+
 Contributors without commit rights cannot formally approve patches but
 are nevertheless welcome to comment on submissions and do technical
 reviews.  We always value another pair of eyes, and volunteering for
@@ -69,11 +70,7 @@ reviews counts favourably towards becoming a committer.  As an author,
 we ask that you address all comments, even if you already have the
 necessary approvals.
 
-If you have trouble finding consensus on a difficult review, reach out to
-the OTC at `otc@openssl.org` (private, moderated) or the project
-at `openssl-project@openssl.org` (public, moderated).  On GitHub, you can
-reach the OMC members with `@openssl/omc`, OTC members with `@openssl/otc`,
-or committers with `@openssl/committers`.
+On GitHub, you can reach the committers with `@openssl/committers`.
 
 ## Commit workflow
 
@@ -105,13 +102,10 @@ Refer to the [Contributor Agreements] page for further details.
 
 A CLA is not required for trivial contributions (e.g. the fix of a
 spelling mistake).  All reviewers and the submission author need to
-agree that a submission is trivial and the _cla: trivial_ label should
+agree that a submission is trivial and the `cla: trivial` label should
 be applied to indicate this.
 
 [Contributor Agreements]: /policies/cla/
-[OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
-[OMC]: /policies/general/glossary/#omc
-[OTC]: /policies/general/glossary/#otc
 [CLAs]: /policies/general/glossary/#cla
 [NEWS]: /policies/general/glossary/#news
 [CHANGES]: /policies/general/glossary/#changes

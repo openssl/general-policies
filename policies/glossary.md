@@ -44,8 +44,6 @@ Refer to the [stable release updates policy] for specific details.
 ## Bylaws
 
 The [OpenSSL Bylaws] provide the rules under which the OpenSSL project operates.
-This includes the [Committer](#committer), [OMC](#omc) and [OTC](#otc) project
-roles and how decisions are made.
 
 ## CCLA
 
@@ -139,16 +137,18 @@ documented in the [NEWS.md] file.
 
 _OpenSSL Management Committee_
 
-This group oversees all managerial and administrative aspects of the project.
-The OMC is the final authority for the OpenSSL project.
-The OMC is governed by the [OpenSSL Bylaws] and the various policy documents.
+In the past this group was overseeing all managerial and administrative aspects
+of the OpenSSL project. It was replaced by the OpenSSL Foundation Board of
+Directors and the OpenSSL Corporation Board of Directors.
 
 ## OTC
 
 _OpenSSL Technical Committee_
 
-This group oversees all technical aspects of the project.
-The OTC is governed by the [OpenSSL Bylaws] and the various policy documents.
+In the past this group was overseeing all technical aspects of the project.
+The responsibilities of OTC have been replaced by the changes noted in various
+policies between the OpenSSL Foundation and OpenSSL Corporation directors and
+the engineering managers of the OpenSSL Foundation and the OpenSSL Corporation.
 
 ## Patch release
 
@@ -167,6 +167,14 @@ For further details see the [perlasm README].
 A public interface is any function, global variable, structure or macro
 declared in a public header file.
 Refer to the [API compatibility policy] for specific details.
+
+## SRT
+
+_Security Response Team_
+
+A selected group of [committers], engineering managers and other team members
+that handles all incoming security reports including the CVE id and
+severity assignment.
 
 ## Stable release
 
@@ -190,7 +198,7 @@ Refer to the [stable release updates policy] for specific details.
 [ICLA]: /policies/openssl_icla.pdf
 [CCLA]: /policies/openssl_ccla.pdf
 [Contributor Agreements]: /policies/cla/
-[OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
+[OpenSSL Bylaws]: https://www.openssl-library.org/about/bylaws/
 [CHANGES.md]: https://github.com/openssl/openssl/blob/master/CHANGES.md
 [NEWS.md]: https://github.com/openssl/openssl/blob/master/NEWS.md
 [The Linux Documentation Project]: https://tldp.org/
