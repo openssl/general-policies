@@ -35,11 +35,11 @@ anyone. The request should specify:
 - Whether there are any known resources being made available to work on the
   feature
 
-The approval of a new feature branch is ultimately performed by the OMC. The OMC
-may delegate the authority to make such approvals on its behalf to another body
-at the discretion of the OMC.
+The approval of a new feature branch is ultimately performed by the OpenSSL
+Foundation or OpenSSL Corporation directors who might delegate this
+responsibility to a designated person or comittee.
 
-Once approved by the OMC a feature branch may be created. All PRs relevant to
+Once approved a feature branch may be created. All PRs relevant to
 that feature should target that branch and go through the normal code review
 process.
 

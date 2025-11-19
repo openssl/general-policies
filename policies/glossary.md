@@ -44,8 +44,7 @@ Refer to the [stable release updates policy] for specific details.
 ## Bylaws
 
 The [OpenSSL Bylaws] provide the rules under which the OpenSSL project operates.
-This includes the [Committer](#committer), [OMC](#omc) and [OTC](#otc) project
-roles and how decisions are made.
+This includes the [Committer](#committer) project role and how decisions are made.
 
 ## CCLA
 
@@ -139,16 +138,19 @@ documented in the [NEWS.md] file.
 
 _OpenSSL Management Committee_
 
-This group oversees all managerial and administrative aspects of the project.
-The OMC is the final authority for the OpenSSL project.
-The OMC is governed by the [OpenSSL Bylaws] and the various policy documents.
+In the past this group was overseeing all managerial and administrative aspects
+of the OpenSSL project. It was replaced by the OpenSSL Foundation Board of
+Directors and the OpenSSL Corporation Board of Directors.
 
 ## OTC
 
 _OpenSSL Technical Committee_
 
-This group oversees all technical aspects of the project.
-The OTC is governed by the [OpenSSL Bylaws] and the various policy documents.
+In the past this group was overseeing all technical aspects of the project.
+It was replaced partially by the respective Technical Advisory Comittees of
+the OpenSSL Foundation and the OpenSSL Corporation. Some of the responsibilities
+of the former OTC are handled by the engineering managers of the OpenSSL
+Foundation and the OpenSSL Corporation.
 
 ## Patch release
 
@@ -190,7 +192,7 @@ Refer to the [stable release updates policy] for specific details.
 [ICLA]: /policies/openssl_icla.pdf
 [CCLA]: /policies/openssl_ccla.pdf
 [Contributor Agreements]: /policies/cla/
-[OpenSSL Bylaws]: https://www.openssl.org/policies/omc-bylaws.html
+[OpenSSL Bylaws]: https://www.openssl-library.org/about/bylaws/
 [CHANGES.md]: https://github.com/openssl/openssl/blob/master/CHANGES.md
 [NEWS.md]: https://github.com/openssl/openssl/blob/master/NEWS.md
 [The Linux Documentation Project]: https://tldp.org/

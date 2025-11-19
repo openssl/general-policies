@@ -52,8 +52,8 @@ scope is established. A release steering committee[^2] assumes responsibility fo
 defining the release theme and priorities, taking into consideration the
 decomposed and estimated product backlog items. The phase's outcome includes a
 finalised release backlog and a release plan, both of which require sign-off by
-the OpenSSL Management Committee (OMC). Following the sign-off, the release
-plans are communicated externally.
+the OpenSSL Foundation and the OpenSSL Corporation engineering managers.
+Following the sign-off, the release plans are communicated externally.
 
 ### 3. Development
 
