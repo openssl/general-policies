@@ -8,7 +8,7 @@ as well as those of other contributors.
 
 ## How to become a committer?
 
-Commit access is granted by an agreement of the OpenSSL Foundation and
+Commit access is granted by the OpenSSL Foundation or
 the OpenSSL Corporation directors.
 
 We welcome contributors who become domain experts in some part of

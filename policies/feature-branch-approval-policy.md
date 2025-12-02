@@ -37,7 +37,7 @@ anyone. The request should specify:
 
 The approval of a new feature branch is ultimately performed by the OpenSSL
 Foundation or OpenSSL Corporation directors who might delegate this
-responsibility to a designated person or comittee.
+responsibility to a designated person or committee.
 
 Once approved a feature branch may be created. All PRs relevant to
 that feature should target that branch and go through the normal code review
