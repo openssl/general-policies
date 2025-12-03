@@ -44,7 +44,6 @@ Refer to the [stable release updates policy] for specific details.
 ## Bylaws
 
 The [OpenSSL Bylaws] provide the rules under which the OpenSSL project operates.
-This includes the [Committer](#committer) project role and how decisions are made.
 
 ## CCLA
 
@@ -147,10 +146,9 @@ Directors and the OpenSSL Corporation Board of Directors.
 _OpenSSL Technical Committee_
 
 In the past this group was overseeing all technical aspects of the project.
-It was replaced partially by the respective Technical Advisory Comittees of
-the OpenSSL Foundation and the OpenSSL Corporation. Some of the responsibilities
-of the former OTC are handled by the engineering managers of the OpenSSL
-Foundation and the OpenSSL Corporation.
+The responsibilities of OTC have been replaced by the changes noted in various
+policies between the OpenSSL Foundation and OpenSSL Corporation directors and
+the engineering managers of the OpenSSL Foundation and the OpenSSL Corporation.
 
 ## Patch release
 
@@ -169,6 +167,14 @@ For further details see the [perlasm README].
 A public interface is any function, global variable, structure or macro
 declared in a public header file.
 Refer to the [API compatibility policy] for specific details.
+
+## SRT
+
+_Security Response Team_
+
+A selected group of [committers], engineering managers and other team members
+that handles all incoming security reports including the CVE id and
+severity assignment.
 
 ## Stable release
 

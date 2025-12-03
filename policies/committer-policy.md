@@ -56,6 +56,13 @@ The use of the _severity: urgent_ label should be limited to contexts where the
 breakage of the CI builds and tests (including buildbot) happened within the
 last 72 hours and the change is straightforward.
 
+The primary purpose of the 24-hour delay after approvals is to provide
+an opportunity to other committers or other people to raise objections
+against the approved change. We try to seek consensus on changes but
+in case full consensus cannot be reached the OpenSSL Foundation and
+the OpenSSL Corporation directors will make a decision on how to handle
+the contentious matter.
+
 Contributors without commit rights cannot formally approve patches but
 are nevertheless welcome to comment on submissions and do technical
 reviews.  We always value another pair of eyes, and volunteering for

@@ -7,13 +7,14 @@ If you wish to report a possible security issue in OpenSSL please
 
 ## Issue triage
 
-Notifications are received by the OpenSSL Security Response Team (SRT)
+Notifications are received by the OpenSSL Security Response Team ([SRT])
 designated by the OpenSSL Foundation and the OpenSSL Corporation directors.
 
-We engage resources within OpenSSL organisations to start the investigation
-and prioritisation. We may work in private with individuals who are not
-part of the SRT as well as other organisations where we believe this
-can help with the issue investigation, resolution, or testing.
+We engage resources within the OpenSSL Foundation and the OpenSSL Corporation
+to start the investigation and prioritisation. We may work in private with
+individuals who are not part of the [SRT] as well as other organisations
+where we believe this can help with the issue investigation, resolution, or
+testing.
 
 ## Threat Model
 
@@ -109,3 +110,5 @@ The policy above is guided by our security principles:
    they got from some vendor (and likely bundled with an operating system).
    The most effective way for these sites to get protected is to get an
    updated version from that vendor.
+
+[SRT]: /policies/general/glossary/#srt
