@@ -44,10 +44,10 @@
 | BSD-ppc64               |        | FreeBSD            |        | ppc64                   |        | LLVM            |        | \@pkubaj                                                |
 | BSD-ppc64le             |        | FreeBSD            |        | ppc64le                 |        | LLVM            |        | \@pkubaj                                                |
 | BSD-riscv64             |        | FreeBSD            |        | riscv64                 |        | LLVM            |        | \@pkubaj                                                |
-| solaris64-x86\_64-gcc   |        | Solaris            |        | x86\_64                 |        | gcc             |        | \@orcl-jlana \@cernoseka                                |
-| solaris64-x86\_64-cc    |        | Solaris            |        | x86\_64                 |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
-| solaris64-sparcv9-gcc   |        | Solaris            |        | Sparc V9 64 bit         |        | gcc             |        | \@orcl-jlana \@cernoseka                                |
-| solaris64-sparcv9-cc    |        | Solaris            |        | Sparc V9 64 bit         |        | Sun C           |        | \@orcl-jlana \@cernoseka                                |
+| solaris64-x86\_64-gcc   |        | Solaris            |        | x86\_64                 |        | gcc             |        | \@tio-checo \@darrenmoffat                              |
+| solaris64-x86\_64-cc    |        | Solaris            |        | x86\_64                 |        | Sun C           |        | \@tio-checo \@darrenmoffat                              |
+| solaris64-sparcv9-gcc   |        | Solaris            |        | Sparc V9 64 bit         |        | gcc             |        | \@tio-checo \@darrenmoffat                              |
+| solaris64-sparcv9-cc    |        | Solaris            |        | Sparc V9 64 bit         |        | Sun C           |        | \@tio-checo \@darrenmoffat                              |
 | linux64-s390x           |        | Linux              |        | s390x                   |        | gcc             |        | \@holger-dengler \@ifranzki                             |
 | hurd-x86                |        | Hurd               |        | x86                     |        | gcc             |        | \@sthibaul                                              |
 | hurd-x86\_64            |        | Hurd               |        | x86\_64                 |        | gcc             |        | \@sthibaul                                              |
