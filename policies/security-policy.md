@@ -3,7 +3,11 @@
 ## Reporting security issues
 
 If you wish to report a possible security issue in OpenSSL please
-[notify us](/community/#reporting-security-bugssecurityreports).
+[notify us](/community/#reporting-security-bugssecurityreports) by
+an e-mail to [openssl-security@openssl.org](mailto:openssl-security@openssl.org).
+
+If you have multiple issues to report, please always send a separate
+e-mail per each issue.
 
 ## Issue triage
 
@@ -27,13 +31,13 @@ against the following classes of attacks:
  - physical fault injection
  - physical observation side channels (e.g. power consumption,
    EM emissions, etc)
+ - those which just cause a denial of service of the OpenSSL application
+ - API misuse by an application where such API is not supposed to be
+   directly exposed to an attacker-controlled data
 
 Mitigations for security issues outside of our threat scope may still be
 addressed, however we do not class these as OpenSSL vulnerabilities and
 will therefore not issue CVEs for any mitigations to address these issues.
-
-We are working towards making the same physical system side channel attacks
-very hard.
 
 Prior to the threat model being included in this policy, CVEs were sometimes
 issued for these classes of attacks. The existence of a previous CVE does
@@ -45,7 +49,7 @@ We will determine the risk of each issue, taking into account our experience
 dealing with past issues, versions affected, common defaults, and use cases.
 We use the following severity categories:
 
- - <a name="critical">**CRITICAL**</a> Severity. This affects common
+ - <a name="critical">**Critical**</a> Severity. This affects common
    configurations and which are also likely to be exploitable. Examples
    include significant disclosure of the contents of server memory
    (potentially revealing user details), vulnerabilities which can be easily
@@ -53,36 +57,40 @@ We use the following severity categories:
    execution is considered likely in common situations. These issues will be
    kept private and will trigger a new release of all supported versions. We
    will attempt to address these as soon as possible.
- - <a name="high">**HIGH**</a> Severity. This includes issues that are of a
+ - <a name="high">**High**</a> Severity. This includes issues that are of a
    lower risk than critical, perhaps due to affecting less common
-   configurations, or which are less likely to be exploitable. These issues
-   will be kept private and will trigger a new release of all supported
-   versions. We will attempt to keep the time these issues are private to a
-   minimum; our aim would be no longer than a month where this is something
-   under our control.
- - <a name="moderate">**MODERATE**</a> Severity. This includes issues like
-   crashes in client applications, flaws in protocols that are less commonly
-   used (such as DTLS), and local flaws. These will in general be kept
+   configurations, affecting only protocol clients, or which are less likely
+   to be exploitable. These issues will be kept private and will trigger
+   a new release of all supported versions. We will attempt to keep the time
+   these issues are private to a minimum; our aim would be no longer than
+   a month where this is something under our control.
+ - <a name="moderate">**Moderate**</a> Severity. This includes issues whose
+   impact is only a denial of service, flaws in protocols that are not
+   commonly used (such as CMP), and local flaws. These will in general be kept
    private until the next release, and that release will be scheduled so
    that it can roll up several such flaws at one time.
- - <a name="low">**LOW**</a> Severity. This includes issues such as those
-   that only affect the openssl command line utility, or unlikely
-   configurations. These will in general be fixed immediately in latest
-   development versions, and may be backported to older versions that are
-   still getting updates. We will update the vulnerabilities page and note
-   the issue CVE in the changelog and commit message, but they may not
+ - <a name="low">**Low**</a> Severity. This includes issues such as those
+   that only affect the openssl command line utility, cause only a denial
+   of service for less common protocols or on client side only, or require
+   multiple unlikely conditions to be fulfilled for the attack to succeed.
+   These will in general be handled in the similar way as the **Moderate**
+   issues. However, as an exception, they might be developend and fixed
+   in public before the next release, for example in case the flaw is
+   rather theoretical and fixing it requires extensive design and
+   development. In such case we will update the vulnerabilities page and
+   note the issue CVE in the changelog and commit message, but they may not
    trigger new releases.
 
 ## Prenotification policy
 
  - Where we are planning an update that fixes security issues we will notify
    the [openssl-announce list](https://groups.google.com/a/openssl.org/g/openssl-announce/)
-   and update the OpenSSL website to give our scheduled update release date
-   and time and the severity of issues being fixed by the update. No further
-   information about the issues will be given.
- - Where we are planning an update that include CRITICAL, HIGH, or MODERATE severity
-   issues we will also prenotify certain organisations with more details
-   and patches.
+   to give our scheduled update release date and time and the severity of
+   issues being fixed by the update. No further information about the issues
+   will be given. This is usually done one week before the actual release.
+ - Where we are planning an update that include **Critical**, **High**, or
+   **Moderate** severity issues we will also prenotify certain organisations
+   with more details and patches.
    - The organisations we prenotify include those that produce a general
      purpose OS that uses OpenSSL as included on [this list of Operating
      System distribution security contacts](http://oss-security.openwall.org/wiki/mailing-lists/distros).
@@ -95,6 +103,8 @@ We use the following severity categories:
    - We may withdraw notifying certain organisations from future
      prenotifications if they leak issues before they are public or over time
      do not add value.
+   This private prenotification is usually done two weeks before the actual
+   release.
 
 Note: researchers or intermediaries who notify us of issues may have their
 own prenotification policy in addition to ours.
@@ -110,5 +120,27 @@ The policy above is guided by our security principles:
    they got from some vendor (and likely bundled with an operating system).
    The most effective way for these sites to get protected is to get an
    updated version from that vendor.
+
+## Security release update recommendations
+
+Our security advisories describe the affected configurations or applications.
+We always recommend to review the advisories before rushing to update the
+systems running with the unfixed releases.
+
+However in general it is a good idea to update the systems as soon as possible
+with the security update releases that contain **Critical** or **High**
+severity issue fixes.
+
+As the **Moderate** and **Low** severity issues are either unlikely to be
+exploitable and/or the impact of the successful exploit is limited, we
+recommend to schedule the updates without an urgency.
+
+## CVSS score differences
+
+The CVSS scoring system does not properly reflect the broad usage of the
+OpenSSL Library and does not fully account for likelihood of a configuration
+being affected. For that reason we do not use the CVSS scoring system to
+determine the severity and the CVSS score provided by independent parties
+might severely differ from the severity we have assigned.
 
 [SRT]: /policies/general/glossary/#srt
