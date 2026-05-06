@@ -30,6 +30,13 @@ that everything will run.
 
 Refer to the [API compatibility policy] for specific details.
 
+## Authenticode
+
+Microsoft's code signing scheme for Windows executables and installers.
+When OpenSSL Library publishes Windows release artifacts, they are signed using
+Authenticode with an [EV](#ev) Code Signing certificate.
+Refer to the [artifact signing policy] for specific details.
+
 ## Beta release
 
 A [beta release] is a late pre-release version.
@@ -87,10 +94,30 @@ source code repository.
 End-user documentation is documentation intended for users of the OpenSSL
 libraries and commandline utilities.
 
+## EV
+
+_Extended Validation_
+
+A class of certificate issued under enhanced identity vetting.
+An EV Code Signing certificate is used to produce
+[Authenticode](#authenticode) signatures on OpenSSL Library Windows
+release artifacts when published.
+Refer to the [artifact signing policy] for specific details.
+
 ## Functional behaviour
 
 What the system does, rather than how it does it.
 Refer to the [testing policy] for specific details.
+
+## HSM
+
+_Hardware Security Module_
+
+A dedicated cryptographic device that stores private key material and
+performs cryptographic operations without exposing the key in plaintext.
+OpenSSL Library uses HSMs to protect release signing keys where required by
+the artifact signing policy.
+Refer to the [artifact signing policy] for specific details.
 
 ## ICLA
 
@@ -140,6 +167,13 @@ _OpenSSL Management Committee_
 In the past this group was overseeing all managerial and administrative aspects
 of the OpenSSL project. It was replaced by the OpenSSL Foundation Board of
 Directors and the OpenSSL Corporation Board of Directors.
+
+## OpenPGP
+
+The standard for digitally signed and encrypted data, defined in
+RFC 9580 and previously RFC 4880. OpenSSL Library signs source release artifacts
+with an OpenPGP signing certificate.
+Refer to the [artifact signing policy] for specific details.
 
 ## OTC
 
@@ -194,6 +228,7 @@ Refer to the [stable release updates policy] for specific details.
 [testing policy]: /policies/technical/testing/
 [documentation policy]: /policies/technical/documentation-policy/#language
 [API compatibility policy]: /policies/technical/api-compat/
+[artifact signing policy]: /policies/general/artifact-signing-policy/
 [perlasm README]: https://github.com/openssl/openssl/blob/master/crypto/perlasm/README.md
 [ICLA]: /policies/openssl_icla.pdf
 [CCLA]: /policies/openssl_ccla.pdf
