@@ -4,21 +4,22 @@
 
 If you wish to report a possible security issue in OpenSSL please
 [notify us](/community/#reporting-security-bugssecurityreports) by
-an e-mail to [openssl-security@openssl.org](mailto:openssl-security@openssl.org).
+sending an e-mail to
+[openssl-security@openssl.org](mailto:openssl-security@openssl.org).
 
 If you have multiple issues to report, please always send a separate
-e-mail per each issue.
+e-mail for each issue.
 
 ## Issue triage
 
 Notifications are received by the OpenSSL Security Response Team ([SRT])
-designated by the OpenSSL Foundation and the OpenSSL Corporation directors.
+designated by the OpenSSL Foundation and the OpenSSL Corporation directors
+which contain resources from within the OpenSSL Foundation and the
+OpenSSL Corporation and also members from the Committers community.
 
-We engage resources within the OpenSSL Foundation and the OpenSSL Corporation
-to start the investigation and prioritisation. We may work in private with
-individuals who are not part of the [SRT] as well as other organisations
-where we believe this can help with the issue investigation, resolution, or
-testing.
+We may work in private with individuals who are not part of the [SRT]
+as well as other organisations where we believe this can help with the
+issue investigation, resolution, or testing.
 
 ## Threat Model
 
@@ -31,9 +32,10 @@ against the following classes of attacks:
  - physical fault injection
  - physical observation side channels (e.g. power consumption,
    EM emissions, etc)
- - those which just cause a denial of service of the OpenSSL application
+ - those which just cause a denial of service of the OpenSSL command
+   line utility
  - API misuse by an application where such API is not supposed to be
-   directly exposed to an attacker-controlled data
+   directly exposed to attacker-controlled data
 
 Mitigations for security issues outside of our threat scope may still be
 addressed, however we do not class these as OpenSSL vulnerabilities and
@@ -65,7 +67,7 @@ We use the following severity categories:
    these issues are private to a minimum; our aim would be no longer than
    a month where this is something under our control.
  - <a name="moderate">**Moderate**</a> Severity. This includes issues whose
-   impact is only a denial of service, flaws in protocols that are not
+   impact is only a denial of service, flaws in protocols that are less
    commonly used (such as CMP), and local flaws. These will in general be kept
    private until the next release, and that release will be scheduled so
    that it can roll up several such flaws at one time.
@@ -74,12 +76,12 @@ We use the following severity categories:
    of service for less common protocols or on client side only, or require
    multiple unlikely conditions to be fulfilled for the attack to succeed.
    These will in general be handled in the similar way as the **Moderate**
-   issues. However, as an exception, they might be developend and fixed
+   issues. However, as an exception, they might be developed and fixed
    in public before the next release, for example in case the flaw is
    rather theoretical and fixing it requires extensive design and
    development. In such case we will update the vulnerabilities page and
-   note the issue CVE in the changelog and commit message, but they may not
-   trigger new releases.
+   note the issue CVE in the changelog and commit message, but we will not
+   publish new releases immediately.
 
 ## Prenotification policy
 
@@ -90,7 +92,8 @@ We use the following severity categories:
    will be given. This is usually done one week before the actual release.
  - Where we are planning an update that include **Critical**, **High**, or
    **Moderate** severity issues we will also prenotify certain organisations
-   with more details and patches.
+   with more details and patches. We usually do that two weeks before the
+   actual release.
    - The organisations we prenotify include those that produce a general
      purpose OS that uses OpenSSL as included on [this list of Operating
      System distribution security contacts](http://oss-security.openwall.org/wiki/mailing-lists/distros).
@@ -103,8 +106,6 @@ We use the following severity categories:
    - We may withdraw notifying certain organisations from future
      prenotifications if they leak issues before they are public or over time
      do not add value.
-   This private prenotification is usually done two weeks before the actual
-   release.
 
 Note: researchers or intermediaries who notify us of issues may have their
 own prenotification policy in addition to ours.
@@ -124,8 +125,8 @@ The policy above is guided by our security principles:
 ## Security release update recommendations
 
 Our security advisories describe the affected configurations or applications.
-We always recommend to review the advisories before rushing to update the
-systems running with the unfixed releases.
+We always recommend to review the advisories before updating the systems
+running with the unfixed releases.
 
 However in general it is a good idea to update the systems as soon as possible
 with the security update releases that contain **Critical** or **High**
@@ -133,7 +134,7 @@ severity issue fixes.
 
 As the **Moderate** and **Low** severity issues are either unlikely to be
 exploitable and/or the impact of the successful exploit is limited, we
-recommend to schedule the updates without an urgency.
+recommend to schedule the updates without undue haste.
 
 ## CVSS score differences
 
