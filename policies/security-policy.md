@@ -122,7 +122,7 @@ The policy above is guided by our security principles:
    The most effective way for these sites to get protected is to get an
    updated version from that vendor.
 
-This policy is primarily a guidance and there might be exceptions to it if
+This policy is primarily guidance and there might be exceptions to it if
 they are warranted by the circumstances. For example, if a fix for a seemingly
 regular issue, that was already published, is later determined to fix
 a security issue, some parts of the process for handling security issues might
