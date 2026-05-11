@@ -18,7 +18,7 @@ legal clarity of its codebase.
 
 If AI has written **non-trivial portions** of your submission, you must:
 
-1. **Declare it in your commit message** using a `Assisted-by` trailer, and
+1. **Declare it in your commit message** using an `Assisted-by` trailer, and
 2. **Have signed a CLA that includes the AI clause.**
 
 Both requirements apply together. Neither alone is sufficient.
@@ -48,17 +48,13 @@ Assisted-by: ChatGPT:gpt-4o
 Assisted-by: GitHub Copilot:gpt-4.1
 ```
 
-Note that tools like GitHub Copilot and ChatGPT support multiple underlying
-models (including models from Anthropic, Google, and others). Declare the
-specific model you actually used, not just the tool name.
-
 A commit may have more than one `Assisted-by` trailer if multiple tools
 were used.
 
 ### Where to put it
 
-Trailers go at the end of the commit message, separated from the body by a
-blank line:
+[Trailers](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-trailer)
+go at the end of the commit message, separated from the body by a blank line:
 
 ```
 Fix memory leak in EVP_PKEY handling
@@ -73,7 +69,7 @@ Assisted-by: Claude:claude-sonnet-4-6
 
 ## 2. The CLA Requirement
 
-OpenSSL has issued a new version of its CLA which includes an AI clause.
+OpenSSL has issued a new version of its CLA, which includes an AI clause.
 Before submitting any contribution that includes non-trivial AI-generated
 content, you must have signed this new CLA.
 
@@ -102,9 +98,8 @@ This means:
 - **Ensure correctness.** AI tools can produce plausible-looking but
   incorrect, insecure, or inefficient code. Security is critical to OpenSSL —
   AI-generated code must meet the same standards as any other contribution.
-- **Ensure licence compliance.** Do not submit AI-generated code if you have
-  reason to believe it reproduces third-party copyrighted material in a way
-  that would be incompatible with OpenSSL's licence.
+- **Avoid copyright violations.** Do not submit AI-generated code if you have
+  reason to believe it reproduces third-party copyrighted material.
 - **Check for test coverage.** AI-generated code must be accompanied by
   appropriate tests, just like any other contribution.
 
@@ -121,6 +116,10 @@ whatever tools help you contribute effectively.
 This policy does **not** create a lower bar for AI-assisted contributions.
 All code is held to the same quality and security standards regardless of how
 it was written.
+
+This policy does **not** permit submissions where no human has reviewed the
+content. AI may assist, but a human must direct the work, review the output,
+and be accountable for what is submitted.
 
 ---
 
