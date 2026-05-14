@@ -96,7 +96,7 @@ write it.**
 This means:
 
 - **Review all AI-generated code** before submitting it. Do not submit
-  output you have not read and understood.
+  output you have not read, understood and tested.
 - **Ensure correctness.** AI tools can produce plausible-looking but
   incorrect, insecure, or inefficient code. Security is critical to OpenSSL —
   AI-generated code must meet the same standards as any other contribution.
