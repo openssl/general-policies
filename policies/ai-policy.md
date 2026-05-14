@@ -16,7 +16,8 @@ legal clarity of its codebase.
 
 ## The Two Core Requirements
 
-If AI has written **non-trivial portions** of your submission, you must:
+If a **non-trivial portion** of your submission has been created using an
+AI tool you must:
 
 1. **Declare it in your commit message** using an `Assisted-by` trailer, and
 2. **Have signed a CLA that includes the AI clause.**
@@ -29,16 +30,17 @@ Both requirements apply together. Neither alone is sufficient.
 
 ### What counts as "non-trivial"?
 
-AI has written a non-trivial portion of a submission when it has generated
-meaningful code, logic, or documentation — not merely assisted with trivial
-tasks like autocompletion of a single line, reformatting, or spell-checking.
+A non-trivial portion of a submission has been created with an AI tool when it
+has generated meaningful code, logic, or documentation — not merely assisted
+with trivial tasks like autocompletion of a single line, reformatting, or
+spell-checking.
 
-If in doubt, declare it.
+If in doubt, declare it as a non-trival contribution.
 
 ### How to declare it
 
 Add an `Assisted-by` trailer to your commit message in the format
-`Assisted-by: {harness}:{model}`, where `{harness}` is the tool or interface
+`Assisted-by: {agent}:{model}`, where `{agent}` is the tool or interface
 you used and `{model}` is the specific underlying model. Always include the
 model name and version where known, so that the declaration is meaningful:
 
@@ -114,8 +116,8 @@ This policy does **not** prohibit the use of AI tools. You are free to use
 whatever tools help you contribute effectively.
 
 This policy does **not** create a lower bar for AI-assisted contributions.
-All code is held to the same quality and security standards regardless of how
-it was written.
+All code is held to the same quality, legal and security standards regardless of
+how it was written.
 
 This policy does **not** permit submissions where no human has reviewed the
 content. AI may assist, but a human must direct the work, review the output,
