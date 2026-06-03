@@ -102,8 +102,8 @@ storage for at least 10 years.
 
 The fingerprint of the current primary key is published on the OpenSSL Library website at
 [https://openssl-library.org/](https://openssl-library.org/). The current OpenPGP signing
-certificate, including its current signing subkey, is published on the OpenSSL Library website, in a
-Web Key Directory under https://openssl-library.org/, and on the keyserver at
+certificate, including its current signing subkey, is published on the OpenSSL Library website, in
+the Web Key Directory of the domain in the certificate's user ID, and on the keyserver at
 [https://keys.openpgp.org/](https://keys.openpgp.org/).
 
 The fingerprint as published on the OpenSSL Library website is the canonical trust anchor. Where the
