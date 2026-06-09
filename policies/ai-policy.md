@@ -1,10 +1,11 @@
-# OpenSSL AI Policy
+# OpenSSL AI Code and Documentation Contribution Policy
 
 ## Overview
 
 OpenSSL welcomes contributions from all developers, including those who use
 AI-assisted coding tools. This policy sets out the rules for using such tools
-when contributing to OpenSSL.
+when creating commits for submission to OpenSSL. It applies to anyone that
+creates such commits (including both project committers and non-committers).
 
 This policy applies to all public OpenSSL repositories, including all
 repositories under [https://github.com/openssl](https://github.com/openssl).
@@ -17,10 +18,10 @@ legal clarity of its codebase.
 ## The Two Core Requirements
 
 If a **non-trivial portion** of your submission has been created using an
-AI tool you must:
+AI tool, you must:
 
-1. **Declare it in your commit message** using an `Assisted-by` trailer, and
-2. **Have signed a CLA that includes the AI clause.**
+1. **declare it in your commit message** using an `Assisted-by` trailer, and
+2. **have signed a Contributor License Agreement (CLA) that includes the AI clauses.**
 
 Both requirements apply together. Neither alone is sufficient.
 
@@ -71,9 +72,9 @@ Assisted-by: Claude:claude-sonnet-4-6
 
 ## 2. The CLA Requirement
 
-OpenSSL has issued a new version of its CLA, which includes an AI clause.
-Before submitting any contribution that includes non-trivial AI-generated
-content, you must have signed this new CLA.
+OpenSSL has issued a new version of its [CLA](https://openssl-library.org/policies/cla/),
+which includes clauses related to AI. Before submitting any contribution that
+includes non-trivial AI-generated content, you must have signed this new CLA.
 
 Signing the old CLA is **not** sufficient for AI-assisted contributions, even
 if you have previously signed it. You must sign the new CLA in full — it is
@@ -120,8 +121,8 @@ All code is held to the same quality, legal and security standards regardless of
 how it was written.
 
 This policy does **not** permit submissions where no human has reviewed the
-content. AI may assist, but a human must direct the work, review the output,
-and be accountable for what is submitted.
+content. AI tools may assist, but a human must direct the work, review the
+output, and be accountable for what is submitted.
 
 ---
 
@@ -129,8 +130,8 @@ and be accountable for what is submitted.
 
 | Situation | What you must do |
 |---|---|
-| AI wrote non-trivial parts of the submission | Add `Assisted-by` trailer; have signed new CLA |
-| AI only helped with trivial tasks (e.g. single-line completion, spell-check) | No special action required |
+| AI tool used to write non-trivial parts of the submission | Add `Assisted-by` trailer; have signed the new CLA |
+| AI only used to help with trivial tasks (e.g. single-line completion, spell-check) | No special action required |
 | Unsure whether the contribution is "non-trivial" | Declare it anyway |
 
 ---
