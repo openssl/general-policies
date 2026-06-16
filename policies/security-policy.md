@@ -13,9 +13,10 @@ e-mail for each issue.
 ## Issue triage
 
 Notifications are received by the OpenSSL Security Response Team ([SRT])
-designated by the OpenSSL Foundation and the OpenSSL Corporation directors
-which contain resources from within the OpenSSL Foundation and the
-OpenSSL Corporation and also members from the Committers community.
+designated by the OpenSSL Foundation and the OpenSSL Corporation directors.
+The SRT contains resources from within the OpenSSL Foundation and the
+OpenSSL Corporation and also members from the Committers community who
+decided to participate in the SRT.
 
 We may work in private with individuals who are not part of the [SRT]
 as well as other organisations where we believe this can help with the
@@ -90,7 +91,7 @@ We use the following severity categories:
    to give our scheduled update release date and time and the severity of
    issues being fixed by the update. No further information about the issues
    will be given. This is usually done one week before the actual release.
- - Where we are planning an update that include **Critical**, **High**, or
+ - Where we are planning an update that includes **Critical**, **High**, or
    **Moderate** severity issues we will also prenotify certain organisations
    with more details and patches. We usually do that two weeks before the
    actual release.
@@ -131,8 +132,8 @@ be skipped for that issue.
 ## Security release update recommendations
 
 Our security advisories describe the affected configurations or applications.
-We always recommend to review the advisories before updating the systems
-running with the unfixed releases.
+We always recommend reviewing the advisories before updating the systems
+running the unfixed releases.
 
 However in general it is a good idea to update the systems as soon as possible
 with the security update releases that contain **Critical** or **High**
@@ -140,7 +141,7 @@ severity issue fixes.
 
 As the **Moderate** and **Low** severity issues are either unlikely to be
 exploitable and/or the impact of the successful exploit is limited, we
-recommend to schedule the updates without undue haste.
+recommend scheduling the updates without undue haste.
 
 ## CVSS score differences
 
