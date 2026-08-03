@@ -26,19 +26,23 @@ supported for the lifetime of that certificate, up to the certificate's end
 date, regardless of the support status of the OpenSSL Library release version
 it was built from.
 
-For each such module, the OpenSSL Project will:
+For each such module:
 
-1. **Assess** every OpenSSL Library security issue (CVE) for impact within
-   the module's validated boundary.
-2. **Disclose** that assessment publicly (Section 3).
-3. **Produce maintenance source releases** containing the relevant fixes.
-   The decision to produce a maintenance release, including its timing and
-   which accumulated fixes it carries, is made at the discretion of the
-   OpenSSL Project.
-4. **Pursue certificate updates** via the CMVP CVE re-validation path, at
-   the discretion of the OpenSSL Project, adding the fixed module version
-   to the existing certificate while keeping previously validated versions
-   valid wherever possible.
+1. Every OpenSSL Library security issue (CVE) is **assessed** for impact
+   within the module's validated boundary.
+2. The assessment is **disclosed** publicly (Section 3).
+3. **Maintenance source releases** containing the relevant fixes are
+   produced. The decision to produce a maintenance release, including its
+   timing and which accumulated fixes it carries, is made at the discretion
+   of the [OpenSSL Corporation](https://openssl-corporation.org/).
+4. **Certificate updates** are pursued via the CMVP CVE re-validation path,
+   at the discretion of the
+   [OpenSSL Corporation](https://openssl-corporation.org/), adding the fixed
+   module version to the existing certificate while keeping previously
+   validated versions valid wherever possible.
+
+This work is funded and performed by the
+[OpenSSL Corporation](https://openssl-corporation.org/).
 
 Support for a module ends on its certificate's end date. This is a fixed
 calendar date, not subject to extension under this policy. For certificate
@@ -89,8 +93,9 @@ support.
 
 ## 6. Going forward
 
-The OpenSSL Project is moving to validate every OpenSSL Library minor
-release, including non-LTS releases, with the goal of keeping at least two
-validated modules overlapping at all times, so customers always have a
-validated target to move to. The 3.1.2 module is governed by this policy
-until certificate #4985 reaches its end date on 10 March 2030.
+The [OpenSSL Corporation](https://openssl-corporation.org/) funds the
+validation of every OpenSSL Library minor release, including non-LTS
+releases, with the goal of keeping at least two validated modules
+overlapping at all times, so customers always have a validated target to
+move to. The 3.1.2 module is governed by this policy until certificate
+#4985 reaches its end date on 10 March 2030.
