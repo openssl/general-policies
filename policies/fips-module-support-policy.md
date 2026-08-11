@@ -93,9 +93,10 @@ support.
 
 ## 6. Going forward
 
-The [OpenSSL Corporation](https://openssl-corporation.org/) funds the
-validation of every OpenSSL Library minor release, including non-LTS
-releases, with the goal of keeping at least two validated modules
-overlapping at all times, so customers always have a validated target to
-move to. The 3.1.2 module is governed by this policy until certificate
-#4985 reaches its end date on 10 March 2030.
+Every OpenSSL Library minor release, including non-LTS releases, is kept in
+a state suitable for FIPS validation. Which releases undergo validation is
+decided by the [OpenSSL Corporation](https://openssl-corporation.org/), with
+the goal of keeping at least two validated modules overlapping at all times,
+so customers always have a validated target to move to. The 3.1.2 module is
+governed by this policy until certificate #4985 reaches its end date on
+10 March 2030.
