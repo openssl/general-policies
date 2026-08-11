@@ -32,9 +32,12 @@ For each such module:
    within the module's validated boundary.
 2. The assessment is **disclosed** publicly (Section 3).
 3. **Maintenance source releases** containing the relevant fixes are
-   produced. The decision to produce a maintenance release, including its
-   timing and which accumulated fixes it carries, is made at the discretion
-   of the [OpenSSL Corporation](https://openssl-corporation.org/).
+   produced. While the module's OpenSSL Library release version is publicly
+   supported, the fixes ship in the ordinary OpenSSL Library releases. After
+   public support for that release version has ended, the decision to
+   produce a maintenance release, including its timing and which accumulated
+   fixes it carries, is made at the discretion of the
+   [OpenSSL Corporation](https://openssl-corporation.org/).
 4. **Certificate updates** are pursued via the CMVP CVE re-validation path,
    at the discretion of the
    [OpenSSL Corporation](https://openssl-corporation.org/), adding the fixed
