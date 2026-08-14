@@ -77,10 +77,9 @@ On GitHub, you can reach the committers with `@openssl/committers`.
 Code changes are submitted on Github as pull requests, which are subject to
 peer review.  The OpenSSL GitHub repository is a mirror, so we do not merge
 on GitHub.  When you become a committer, we'll send you instructions to get
-commit access to the main repository.  To have handy links to review
-history, we record the reviewers and GitHub pull request IDs in commit
-headers.  We have some helper scripts in the tools repo to add these headers
-automatically.
+commit access to the main repository.  To have handy links to review history,
+we record the reviewers and GitHub pull request IDs in commit trailers.  We
+have some helper scripts in the tools repo to add these trailers automatically.
 
 Some commits, created and signed by OpenSSL designated bots, may be reviewed
 by other means, and do not receive review records as described above.
