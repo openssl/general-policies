@@ -55,7 +55,7 @@
 | ios-cross               |        | iOS                |        | armv7                   |        | Apple clang 12  |        | \@fwh-dc                                                |
 | ios64-cross             |        | iOS                |        | aarch64                 |        | Apple clang 12  |        | \@fwh-dc                                                |
 | linux-ppc64le           |        | Linux              |        | ppc64 little endian     |        | gcc             |        | \@dannytsen \@erichte-ibm \@naynajain                   |
-| linux64-riscv64         |        | Linux              |        | riscv64                 |        | gcc             |        | \@ZenithalHourlyRate                                    |
+| linux64-riscv64         |        | Linux              |        | riscv64                 |        | gcc             |        | \@ZenithalHourlyRate \@HeliC829                         |
 | linux32-riscv32         |        | Linux              |        | riscv32                 |        | gcc             |        | \@ZenithalHourlyRate                                    |
 | linux-e2k               |        | Linux              |        | e2k                     |        | LCC clang       |        | \@r-a-sattarov \@troosh \@arrowd                        |
 | aix-gcc                 |        | AIX                |        | ppc32                   |        | gcc             |        | \@sanumesh                                              |
