@@ -70,27 +70,31 @@ We use the following severity categories:
  - <a name="moderate">**Moderate**</a> Severity. This includes issues whose
    impact is only a denial of service, flaws in protocols that are less
    commonly used (such as CMP), and local flaws. These will in general be kept
-   private until the next release, and that release will be scheduled so
-   that it can roll up several such flaws at one time.
+   private until the next scheduled patch release, as defined in the
+   [Release Policy].
  - <a name="low">**Low**</a> Severity. This includes issues such as those
    that only affect the openssl command line utility, cause only a denial
    of service for less common protocols or on client side only, or require
    multiple unlikely conditions to be fulfilled for the attack to succeed.
-   These will in general be handled in the similar way as the **Moderate**
-   issues. However, as an exception, they might be developed and fixed
-   in public before the next release, for example in case the flaw is
-   rather theoretical and fixing it requires extensive design and
-   development. In such case we will update the vulnerabilities page and
-   note the issue CVE in the changelog and commit message, but we will not
-   publish new releases immediately.
+   These issues will be developed and fixed in public. The issue CVE will be
+   noted in the changelog and commit message, and we will update the
+   vulnerabilities page. The fix will be released in the next scheduled patch
+   release, as defined in the [Release Policy]; the advisory will state that
+   release and its scheduled date. If a **Low** severity issue is later
+   determined to be of **Moderate** or higher severity, we will publish a new
+   release as soon as possible.
 
 ## Prenotification policy
 
+ - **Low** severity issues fixed during a particular week are announced in
+   a weekly summary on the [openssl-announce list](https://groups.google.com/a/openssl.org/g/openssl-announce/).
+   No summary is sent for a week without such fixes.
  - Where we are planning an update that fixes security issues we will notify
    the [openssl-announce list](https://groups.google.com/a/openssl.org/g/openssl-announce/)
    to give our scheduled update release date and time and the severity of
-   issues being fixed by the update. No further information about the issues
-   will be given. This is usually done one week before the actual release.
+   issues being fixed by the update. No further information about embargoed
+   issues will be given. This is usually done one week before the actual
+   release.
  - Where we are planning an update that includes **Critical**, **High**, or
    **Moderate** severity issues we will also prenotify certain organisations
    with more details and patches. We usually do that two weeks before the
@@ -152,3 +156,4 @@ determine the severity and the CVSS score provided by independent parties
 might severely differ from the severity we have assigned.
 
 [SRT]: /policies/general/glossary/#srt
+[Release Policy]: /policies/general/release-policy/

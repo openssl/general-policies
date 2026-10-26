@@ -33,6 +33,13 @@ following phases:
  * **Support**:
    A support phase.
 
+### Patch releases
+
+Patch releases of all supported versions are scheduled every two months. A
+scheduled patch release is skipped if there are no security fixes to release.
+Security issues of **Critical** or **High** severity trigger a release outside
+of this schedule, as defined in the [Security Policy].
+
 ## Phases
 
 ### 1. Planning
@@ -123,6 +130,7 @@ See [Release Requirements Policy] for details on each type of release.
 
 [Stable Release Updates Policy]: /policies/technical/stable-release-updates/
 [Release Requirements Policy]: /policies/technical/release-requirements/
+[Security Policy]: /policies/general/security-policy/
 [Making an OpenSSL Release]: https://github.com/openssl/tools/blob/master/HOWTO-make-a-release.md
 
 [^1]: Feature Acceptance Criteria - 🚧 The document is a work in progress.
