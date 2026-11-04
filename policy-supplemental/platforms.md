@@ -66,6 +66,8 @@
 | aix-clang               |        | AIX                |        | ppc32                   |        | IBM openxl clang|        | \@sanumesh                                              |
 | aix64-clang             |        | AIX                |        | ppc64                   |        | IBM openxl clang|        | \@sanumesh                                              |
 | BC-64                   |        | Windows 10/11      |        | x86\_64                 |        | Embarcaderoclang|        | \@GermanAizek                                           |
+| darwin-ppc              |        | Mac OS 10.5/10.6   |        | ppc                     |        | gcc             |        | \@barracuda156                                          |
+| darwin64-ppc            |        | Mac OS 10.5        |        | ppc64                   |        | gcc             |        | \@barracuda156                                          |
 
 ## Current unadopted platforms
 
@@ -144,9 +146,6 @@
 | UWIN                   |        | UWIN                              |        | x86                 |        |                         |
 | Cygwin-x86             |        | Windows 10                        |        | x86                 |        | gcc                     |
 | Cygwin-x86\_64         |        | Windows 10                        |        | x86\_64             |        | gcc                     |
-| darwin-ppc             |        | MacOS?                            |        | ppc32               |        |                         |
-| darwin64-ppc           |        | MacOS?                            |        | ppc64               |        |                         |
-| darwin-i386            |        | MacOS?                            |        | x86                 |        |                         |
 | darwin-i386            |        | MacOS?                            |        | x86                 |        |                         |
 | vxworks-ppc60x         |        | vxworks                           |        | ppc32               |        |                         |
 | vxworks-ppcgen         |        | vxworks                           |        | ppc32               |        |                         |
