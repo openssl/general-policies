@@ -8,6 +8,7 @@
 | linux-generic64  |        | Ubuntu Server 20.04 |        | x86\_64      |        | gcc 9                                |
 | linux-x86        |        | Debian 11           |        | x86          |        | gcc 10                               |
 | linux-generic32  |        | Debian 11           |        | x86          |        | gcc 10                               |
+| linux-aarch64    |        | Amazon Linux 2023   |        | AArch64 (Graviton4) |        | gcc 11                               |
 | BSD-x86\_64      |        | FreeBSD 13.0        |        | x86\_64      |        | Clang 11                             |
 | VC-WIN64A        |        | Windows 10          |        | x86\_64      |        | Visual Studio 2019 Community Edition |
 | VC-WIN32         |        | Windows 10          |        | x86          |        | Visual Studio 2019 Community Edition |
@@ -19,7 +20,6 @@
 
 | Target       | &nbsp; | O/S         | &nbsp; | Architecture | &nbsp; | Toolchain       | &nbsp; | Nominated Committer(s) | &nbsp; | Nominated Community Maintainer(s) |
 |--------------|--------|-------------|--------|--------------|--------|-----------------|--------|------------------------|--------|-----------------------------------|
-| linux-aarch64 |       | Linux       |        | AArch64      |        | gcc             |        | \@tom-cosgrove-arm     |        | \@zorrorffm                       |
 
 ## Current community platforms
 
