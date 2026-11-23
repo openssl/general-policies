@@ -20,6 +20,7 @@
 
 | Target       | &nbsp; | O/S         | &nbsp; | Architecture | &nbsp; | Toolchain       | &nbsp; | Nominated Committer(s) | &nbsp; | Nominated Community Maintainer(s) |
 |--------------|--------|-------------|--------|--------------|--------|-----------------|--------|------------------------|--------|-----------------------------------|
+| linux-aarch64 |       | Linux       |        | AArch64      |        | gcc             |        | \@tom-cosgrove-arm     |        | \@zorrorffm                       |
 
 ## Current community platforms
 
